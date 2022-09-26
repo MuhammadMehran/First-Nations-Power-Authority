@@ -91,7 +91,7 @@ def chart4(data):
     fig = go.Figure()
 
     data_star = data[data['Location Data Type'].str.lower() == 'band']
-    data_not_star = data[data['Location Data Type'].str.lower() != 'facility']
+    data_not_star = data[data['Location Data Type'].str.lower() == 'facility']
 
     fig.add_trace(go.Scattergeo(
         lon=data_star['Longitude'],
