@@ -163,7 +163,7 @@ with row8_1:
 row9_spacer1, row9_1, row9_spacer2, row9_2, row9_spacer3 = st.columns(
     (.2, 2.3, .4, 4.4, .2))
 with row9_1:
-    band_chart3 = st.selectbox("Please select Band Number", list(
+    band_chart3 = st.selectbox("Please select Band Name", list(
         df['Band Name'].unique()), key='band_chart3')
     st.markdown('This is chart 3')
 with row9_2:
