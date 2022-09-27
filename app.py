@@ -127,7 +127,7 @@ def chart4(data):
 
     fig.update_layout(
         mapbox_style="dark",
-        geo_scope='north america',
+        geo_scope='north america', height=600,
         legend=dict(orientation="h", yanchor="top", y=-0.02,
                     xanchor="right", x=0.5, title='Location Data Type')
     )
