@@ -127,6 +127,15 @@ def chart4(data):
         legend=dict(orientation="h", yanchor="top", y=-0.02,
                     xanchor="right", x=0.5, title='Location Data Type')
     )
+
+    lon_foc, lat_foc = data_not_star.iloc[0]['Longitude'], data_not_star.iloc[0]['Latitude']
+
+    fig.update_layout(
+        geo=dict(
+            projection_scale=3,  # this is kind of like zoom
+            # this will center on the point
+            center=dict(lat=lat_foc, lon=lon_foc),
+        ))
     st.plotly_chart(fig, use_container_width=True)
 
 
