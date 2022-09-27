@@ -1,0 +1,638 @@
+﻿Location Data Type,Facility name,BAND_NUMBER,BAND_NAME,LONGITUDE,LATITUDE,COORD_SYS,Reference Year
+Band,Pelican Lake,405,Pelican Lake,-107.783957,53.68563924,GCS_North_American_1983_CSRS,2020
+Band,"Mosquito, Grizzly Bear's Head, Lean Man First Nations",343,"Mosquito, Grizzly Bear's Head, Lean Man First Nations",-108.2484351,52.49042472,GCS_North_American_1983_CSRS,2020
+Band,Wasauksing First Nation,136,Wasauksing First Nation,-80.05698523,45.32607433,GCS_North_American_1983_CSRS,2020
+Band,Little Pine,340,Little Pine,-109.0586939,52.9157411,GCS_North_American_1983_CSRS,2020
+Band,Tobique,16,Tobique,-67.69698885,46.78724761,GCS_North_American_1983_CSRS,2020
+Band,Tlatlasikwala,632,Tlatlasikwala,-127.9399887,50.92247525,GCS_North_American_1983_CSRS,2020
+Band,Zhiibaahaasing First Nation,173,Zhiibaahaasing First Nation,-82.86948289,45.94998445,GCS_North_American_1983_CSRS,2020
+Band,Douglas,561,Douglas,-122.2010851,49.75599262,GCS_North_American_1983_CSRS,2020
+Band,Fishing Lake First Nation,390,Fishing Lake First Nation,-103.6323728,51.85653159,GCS_North_American_1983_CSRS,2020
+Band,Première nation de Whapmagoostui,95,Première nation de Whapmagoostui,-77.75600406,55.27601438,GCS_North_American_1983_CSRS,2020
+Band,Zagime Anishinabek,364,Zagime Anishinabek,-102.7940699,50.52756623,GCS_North_American_1983_CSRS,2020
+Band,Lower Mohawk,254,Lower Mohawk,-80.11908301,43.04322133,GCS_North_American_1983_CSRS,2020
+Band,O'Chiese,431,O'Chiese,-115.281361,52.70591867,GCS_North_American_1983_CSRS,2020
+Band,Shackan,698,Shackan,-121.175373,50.29338822,GCS_North_American_1983_CSRS,2020
+Band,Neskantaga First Nation,239,Neskantaga First Nation,-88.01144188,52.20458408,GCS_North_American_1983_CSRS,2020
+Band,Ojibway Nation of Saugeen,258,Ojibway Nation of Saugeen,-90.65837514,50.42115238,GCS_North_American_1983_CSRS,2020
+Band,Da'naxda'xw First Nation,635,Da'naxda'xw First Nation,-126.597306,50.596493,GCS_North_American_1983_CSRS,2020
+Band,Toosey,718,Toosey,-122.5013556,51.92958471,GCS_North_American_1983_CSRS,2020
+Band,Athabasca Chipewyan First Nation,463,Athabasca Chipewyan First Nation,-111.0301551,58.54820498,GCS_North_American_1983_CSRS,2020
+Band,Eagle Lake,148,Eagle Lake,-93.05714125,49.73816441,GCS_North_American_1983_CSRS,2020
+Band,Tahltan,682,Tahltan,-131.1797176,57.90183804,GCS_North_American_1983_CSRS,2020
+Band,Lac Des Mille Lacs,189,Lac Des Mille Lacs,-90.329775,48.887435,GCS_North_American_1983_CSRS,2020
+Band,Kingfisher,212,Kingfisher,-89.82647069,53.02911729,GCS_North_American_1983_CSRS,2020
+Band,Ka'a'gee Tu First Nation,768,Ka'a'gee Tu First Nation,-117.416687,60.94000244,GCS_North_American_1983_CSRS,2020
+Band,Kwikwetlem First Nation,560,Kwikwetlem First Nation,-122.805957,49.23016091,GCS_North_American_1983_CSRS,2020
+Band,Heiltsuk,538,Heiltsuk,-128.144426,52.161598,GCS_North_American_1983_CSRS,2020
+Band,Fort McKay First Nation,467,Fort McKay First Nation,-111.6349127,57.17950646,GCS_North_American_1983_CSRS,2020
+Band,Pheasant Rump Nakota,409,Pheasant Rump Nakota,-102.682145,49.660095,GCS_North_American_1983_CSRS,2020
+Band,Binche Whut'en,730,Binche Whut'en,-124.494157,54.566249,GCS_North_American_1983_CSRS,2020
+Band,Red Sucker Lake,300,Red Sucker Lake,-93.56888948,54.15616754,GCS_North_American_1983_CSRS,2020
+Band,Samahquam,567,Samahquam,-122.5410911,50.05130897,GCS_North_American_1983_CSRS,2020
+Band,Bearskin Lake,207,Bearskin Lake,-90.96723586,53.92409569,GCS_North_American_1983_CSRS,2020
+Band,Muskoday First Nation,371,Muskoday First Nation,-105.4905969,53.08839804,GCS_North_American_1983_CSRS,2020
+Band,Nuchatlaht,639,Nuchatlaht,-126.942083,49.99026163,GCS_North_American_1983_CSRS,2020
+Band,Walpole Island,170,Walpole Island,-82.49335912,42.59193425,GCS_North_American_1983_CSRS,2020
+Band,Annapolis Valley,20,Annapolis Valley,-64.65166566,45.06660756,GCS_North_American_1983_CSRS,2020
+Band,Little Black Bear,379,Little Black Bear,-103.3163461,51.00464079,GCS_North_American_1983_CSRS,2020
+Band,Haisla Nation,676,Haisla Nation,-128.64593,53.9754754,GCS_North_American_1983_CSRS,2020
+Band,Nicomen,696,Nicomen,-121.3982464,50.26443714,GCS_North_American_1983_CSRS,2020
+Band,Aklavik,755,Aklavik,-135.0200555,68.21800266,GCS_North_American_1983_CSRS,2020
+Band,Yakweakwioose,576,Yakweakwioose,-121.9369255,49.13236784,GCS_North_American_1983_CSRS,2020
+Band,Keeseekoowenin,286,Keeseekoowenin,-100.2995525,50.53910135,GCS_North_American_1983_CSRS,2020
+Band,Liidlii Kue First Nation,757,Liidlii Kue First Nation,-121.3136595,61.81777528,GCS_North_American_1983_CSRS,2020
+Band,Cree Nation of Wemindji,60,Cree Nation of Wemindji,-78.80771226,53.0002333,GCS_North_American_1983_CSRS,2020
+Band,Konadaha Seneca,251,Konadaha Seneca,-80.08869059,43.03765629,GCS_North_American_1983_CSRS,2020
+Band,Canupawakpa Dakota First Nation,289,Canupawakpa Dakota First Nation,-100.9453645,49.62045295,GCS_North_American_1983_CSRS,2020
+Band,The Key First Nation,368,The Key First Nation,-102.129017,51.78287422,GCS_North_American_1983_CSRS,2020
+Band,Whitefish Lake,459,Whitefish Lake,-115.6480717,55.91889578,GCS_North_American_1983_CSRS,2020
+Band,Mattagami,226,Mattagami,-81.52232,47.79888,GCS_North_American_1983_CSRS,2020
+Band,Seabird Island,581,Seabird Island,-121.7303967,49.25512172,GCS_North_American_1983_CSRS,2020
+Band,Kwiakah,628,Kwiakah,-125.1577604,50.42268599,GCS_North_American_1983_CSRS,2020
+Band,Fort Alexander,262,Fort Alexander,-96.30951946,50.61128752,GCS_North_American_1983_CSRS,2020
+Band,Dzawada'enuxw First Nation,636,Dzawada'enuxw First Nation,-126.1802013,50.97727553,GCS_North_American_1983_CSRS,2020
+Band,Nekaneet,380,Nekaneet,-109.1981607,49.67516372,GCS_North_American_1983_CSRS,2020
+Band,Munsee-Delaware Nation,168,Munsee-Delaware Nation,-81.46830082,42.78799233,GCS_North_American_1983_CSRS,2020
+Band,Listuguj Mi'gmaq Government,51,Listuguj Mi'gmaq Government,-66.70511684,48.01294448,GCS_North_American_1983_CSRS,2020
+Band,Siksika Nation,430,Siksika Nation,-113.0508325,50.85913341,GCS_North_American_1983_CSRS,2020
+Band,Iskatewizaagegan #39 Independent First Nation,154,Iskatewizaagegan #39 Independent First Nation,-95.09931025,49.62564713,GCS_North_American_1983_CSRS,2020
+Band,Cumberland House Cree Nation,350,Cumberland House Cree Nation,-102.2849307,53.94193161,GCS_North_American_1983_CSRS,2020
+Band,Marcel Colomb First Nation,328,Marcel Colomb First Nation,-100.5830595,56.80282521,GCS_North_American_1983_CSRS,2020
+Band,Kwakiutl,626,Kwakiutl,-127.4108636,50.69371065,GCS_North_American_1983_CSRS,2020
+Band,Tulita Dene,750,Tulita Dene,-125.5779233,64.90053696,GCS_North_American_1983_CSRS,2020
+Band,Gitlaxt'aamiks Village Government,677,Gitlaxt'aamiks Village Government,-129.0793295,55.20658858,GCS_North_American_1983_CSRS,2020
+Band,Poplar Hill,236,Poplar Hill,-94.3057413,52.09989338,GCS_North_American_1983_CSRS,2020
+Band,Buffalo River Dene Nation,398,Buffalo River Dene Nation,-108.9353093,55.92963325,GCS_North_American_1983_CSRS,2020
+Band,Waywayseecappo First Nation Treaty Four - 1874,285,Waywayseecappo First Nation Treaty Four - 1874,-100.8804769,50.67971132,GCS_North_American_1983_CSRS,2020
+Band,Animakee Wa Zhing #37,152,Animakee Wa Zhing #37,-93.97296119,49.39471385,GCS_North_American_1983_CSRS,2020
+Band,Aundeck-Omni-Kaning,180,Aundeck-Omni-Kaning,-81.99569633,45.95995129,GCS_North_American_1983_CSRS,2020
+Band,Indian Island,10,Indian Island,-64.79453807,46.69101026,GCS_North_American_1983_CSRS,2020
+Band,Fox Lake,305,Fox Lake,-94.202867,56.504663,GCS_North_American_1983_CSRS,2020
+Band,Kitchenuhmaykoosib Inninuwug,209,Kitchenuhmaykoosib Inninuwug,-89.87738823,53.82306089,GCS_North_American_1983_CSRS,2020
+Band,Anishinabe of Wauzhushk Onigum,153,Anishinabe of Wauzhushk Onigum,-94.44642813,49.70772064,GCS_North_American_1983_CSRS,2020
+Band,Takla Nation,608,Takla Nation,-125.975336,55.482356,GCS_North_American_1983_CSRS,2020
+Band,Sweetgrass,348,Sweetgrass,-108.7159253,52.76546337,GCS_North_American_1983_CSRS,2020
+Band,Esquimalt,644,Esquimalt,-123.4304159,48.44493003,GCS_North_American_1983_CSRS,2020
+Band,Little Red River Cree Nation,447,Little Red River Cree Nation,-114.5334634,58.46491987,GCS_North_American_1983_CSRS,2020
+Band,Tsleil-Waututh Nation,549,Tsleil-Waututh Nation,-122.9878695,49.31061641,GCS_North_American_1983_CSRS,2020
+Band,Première Nation des Abénakis de Wôlinak,71,Première Nation des Abénakis de Wôlinak,-72.42162154,46.32863848,GCS_North_American_1983_CSRS,2020
+Band,Oujé-Bougoumou Cree Nation,89,Oujé-Bougoumou Cree Nation,-74.81979605,49.9235347,GCS_North_American_1983_CSRS,2020
+Band,High Bar,703,High Bar,-122.0180821,51.11304299,GCS_North_American_1983_CSRS,2020
+Band,Cree Nation of Mistissini,75,Cree Nation of Mistissini,-73.864326,50.415046,GCS_North_American_1983_CSRS,2020
+Band,Namgis First Nation,631,Namgis First Nation,-126.9352744,50.59600617,GCS_North_American_1983_CSRS,2020
+Band,Tsawout First Nation,654,Tsawout First Nation,-123.39068,48.591983,GCS_North_American_1983_CSRS,2020
+Band,Chippewas of Rama First Nation,139,Chippewas of Rama First Nation,-79.35127,44.64665803,GCS_North_American_1983_CSRS,2020
+Band,Première Nation des Pekuakamiulnuatsh,76,Première Nation des Pekuakamiulnuatsh,-72.22900207,48.57646281,GCS_North_American_1983_CSRS,2020
+Band,Nigigoonsiminikaaning First Nation,129,Nigigoonsiminikaaning First Nation,-92.94053167,48.7109575,GCS_North_American_1983_CSRS,2020
+Band,Huu-ay-aht First Nations,663,Huu-ay-aht First Nations,-125.1271556,48.80207854,GCS_North_American_1983_CSRS,2020
+Band,Sapotaweyak Cree Nation,314,Sapotaweyak Cree Nation,-100.692299,52.74473335,GCS_North_American_1983_CSRS,2020
+Band,Toquaht,666,Toquaht,-125.3744631,48.99622324,GCS_North_American_1983_CSRS,2020
+Band,O-Chi-Chak-Ko-Sipi First Nation,279,O-Chi-Chak-Ko-Sipi First Nation,-99.2577577,51.50349317,GCS_North_American_1983_CSRS,2020
+Band,Acho Dene Koe First Nation,758,Acho Dene Koe First Nation,-123.4740775,60.24030707,GCS_North_American_1983_CSRS,2020
+Band,La Nation Micmac de Gespeg,53,La Nation Micmac de Gespeg,-64.62331665,48.91804598,GCS_North_American_1983_CSRS,2020
+Band,Upper Similkameen,599,Upper Similkameen,-120.0787335,49.35586303,GCS_North_American_1983_CSRS,2020
+Band,Wabigoon Lake Ojibway Nation,157,Wabigoon Lake Ojibway Nation,-92.52151557,49.62547562,GCS_North_American_1983_CSRS,2020
+Band,Tsal'alh,595,Tsal'alh,-122.2176275,50.72810133,GCS_North_American_1983_CSRS,2020
+Band,Lucky Man,341,Lucky Man,-107.2365621,52.98890093,GCS_North_American_1983_CSRS,2020
+Band,Wolf Lake,68,Wolf Lake,-78.7998024,46.99726564,GCS_North_American_1983_CSRS,2020
+Band,Lake Babine Nation,607,Lake Babine Nation,-125.7615714,54.23854836,GCS_North_American_1983_CSRS,2020
+Band,Mamalilikulla First Nation,629,Mamalilikulla First Nation,-126.6823283,50.59424358,GCS_North_American_1983_CSRS,2020
+Band,Wasagamack First Nation,299,Wasagamack First Nation,-94.92727827,53.89540941,GCS_North_American_1983_CSRS,2020
+Band,Chippewas of the Thames First Nation,166,Chippewas of the Thames First Nation,-81.47338782,42.81898334,GCS_North_American_1983_CSRS,2020
+Band,Carcross/Tagish First Nation,491,Carcross/Tagish First Nation,-134.7037556,60.17044326,GCS_North_American_1983_CSRS,2020
+Band,McDowell Lake,326,McDowell Lake,-93.74766806,51.0595071,GCS_North_American_1983_CSRS,2020
+Band,Ginoogaming First Nation,185,Ginoogaming First Nation,-86.54424226,49.75792015,GCS_North_American_1983_CSRS,2020
+Band,Soowahlie,572,Soowahlie,-121.9689589,49.08102008,GCS_North_American_1983_CSRS,2020
+Band,Simpcw First Nation,691,Simpcw First Nation,-120.1490264,51.31689545,GCS_North_American_1983_CSRS,2020
+Band,Wha Ti First Nation,769,Wha Ti First Nation,-117.2687921,63.14447986,GCS_North_American_1983_CSRS,2020
+Band,Sagamok Anishnawbek,179,Sagamok Anishnawbek,-82.11021407,46.15751204,GCS_North_American_1983_CSRS,2020
+Band,Curve Lake,161,Curve Lake,-78.37530686,44.46253162,GCS_North_American_1983_CSRS,2020
+Band,Cheam,584,Cheam,-121.783845,49.189257,GCS_North_American_1983_CSRS,2020
+Band,Gitanyow,537,Gitanyow,-128.069492,55.265354,GCS_North_American_1983_CSRS,2020
+Band,Moose Deer Point,135,Moose Deer Point,-80.00380679,45.07949203,GCS_North_American_1983_CSRS,2020
+Band,Tseshaht,665,Tseshaht,-124.848919,49.267225,GCS_North_American_1983_CSRS,2020
+Band,Kitigan Zibi Anishinabeg,73,Kitigan Zibi Anishinabeg,-75.98277442,46.36313224,GCS_North_American_1983_CSRS,2020
+Band,Coldwater,693,Coldwater,-120.8592253,50.03106782,GCS_North_American_1983_CSRS,2020
+Band,Whitefish River,230,Whitefish River,-81.77602623,46.06616388,GCS_North_American_1983_CSRS,2020
+Band,Odanak,72,Odanak,-72.81996917,46.07323792,GCS_North_American_1983_CSRS,2020
+Band,Nazko First Nation,720,Nazko First Nation,-123.5835461,52.94372677,GCS_North_American_1983_CSRS,2020
+Band,Metlakatla First Nation,673,Metlakatla First Nation,-130.4442291,54.33694956,GCS_North_American_1983_CSRS,2020
+Band,Goodstoney,475,Goodstoney,-114.8469086,51.16979368,GCS_North_American_1983_CSRS,2020
+Band,Upper Nicola,697,Upper Nicola,-120.2824252,50.14198945,GCS_North_American_1983_CSRS,2020
+Band,Montreal Lake,354,Montreal Lake,-105.7866136,54.0517366,GCS_North_American_1983_CSRS,2020
+Band,Skwah,573,Skwah,-121.9722584,49.17809654,GCS_North_American_1983_CSRS,2020
+Band,Skuppah,707,Skuppah,-121.5738609,50.18759216,GCS_North_American_1983_CSRS,2020
+Band,Constance Lake,182,Constance Lake,-84.143492,49.806332,GCS_North_American_1983_CSRS,2020
+Band,Stz'uminus First Nation,641,Stz'uminus First Nation,-123.7721113,48.99302393,GCS_North_American_1983_CSRS,2020
+Band,Lil'wat Nation,557,Lil'wat Nation,-122.721334,50.318193,GCS_North_American_1983_CSRS,2020
+Band,Glooscap First Nation,30,Glooscap First Nation,-64.23501963,45.04177449,GCS_North_American_1983_CSRS,2020
+Band,Mohawks of Akwesasne,159,Mohawks of Akwesasne,-74.64541366,44.99974921,GCS_North_American_1983_CSRS,2020
+Band,Kehewin Cree Nation,466,Kehewin Cree Nation,-110.8570944,54.11608845,GCS_North_American_1983_CSRS,2020
+Band,Bonaparte First Nation,686,Bonaparte First Nation,-121.3853678,50.84080376,GCS_North_American_1983_CSRS,2020
+Band,Kahkewistahaw,362,Kahkewistahaw,-102.531437,50.491236,GCS_North_American_1983_CSRS,2020
+Band,Nak'azdli Whut'en,614,Nak'azdli Whut'en,-124.2501544,54.43845786,GCS_North_American_1983_CSRS,2020
+Band,Pauquachin,652,Pauquachin,-123.4584569,48.62715346,GCS_North_American_1983_CSRS,2020
+Band,Madawaska Maliseet First Nation,6,Madawaska Maliseet First Nation,-68.305743,47.36221693,GCS_North_American_1983_CSRS,2020
+Band,Snuneymuxw First Nation,648,Snuneymuxw First Nation,-123.9302773,49.15166709,GCS_North_American_1983_CSRS,2020
+Band,Vuntut Gwitchin First Nation,496,Vuntut Gwitchin First Nation,-139.8278216,67.57039011,GCS_North_American_1983_CSRS,2020
+Band,Tr'ondëk Hwëch'in,494,Tr'ondëk Hwëch'in,-139.431203,64.06492833,GCS_North_American_1983_CSRS,2020
+Band,War Lake First Nation,323,War Lake First Nation,-95.59650719,56.06842955,GCS_North_American_1983_CSRS,2020
+Band,McLeod Lake,618,McLeod Lake,-123.0458354,54.98456398,GCS_North_American_1983_CSRS,2020
+Band,Deninu K'ue First Nation,762,Deninu K'ue First Nation,-113.6737712,61.17241036,GCS_North_American_1983_CSRS,2020
+Band,Acadia,18,Acadia,-66.08350772,43.83312382,GCS_North_American_1983_CSRS,2020
+Band,Spuzzum,708,Spuzzum,-121.4114739,49.66102333,GCS_North_American_1983_CSRS,2020
+Band,Millbrook,27,Millbrook,-63.29274887,45.33378102,GCS_North_American_1983_CSRS,2020
+Band,Samson,444,Samson,-113.4550463,52.82038608,GCS_North_American_1983_CSRS,2020
+Band,Long Lake No.58 First Nation,184,Long Lake No.58 First Nation,-86.57311497,49.78684544,GCS_North_American_1983_CSRS,2020
+Band,Kee-Way-Win,325,Kee-Way-Win,-92.7973229,53.00401908,GCS_North_American_1983_CSRS,2020
+Band,Eabametoong First Nation,183,Eabametoong First Nation,-87.88806256,51.55889818,GCS_North_American_1983_CSRS,2020
+Band,Aroland,242,Aroland,-86.95750847,50.23219118,GCS_North_American_1983_CSRS,2020
+Band,Long Plain,287,Long Plain,-98.46516606,49.8566137,GCS_North_American_1983_CSRS,2020
+Band,T'it'q'et,593,T'it'q'et,-121.9456408,50.67735163,GCS_North_American_1983_CSRS,2020
+Band,Yellow Quill,376,Yellow Quill,-103.6250812,52.30323552,GCS_North_American_1983_CSRS,2020
+Band,Lhoosk'uz Dene Nation,721,Lhoosk'uz Dene Nation,-124.4901613,53.087346,GCS_North_American_1983_CSRS,2020
+Band,Buctouche MicMac,4,Buctouche MicMac,-64.76153414,46.45458611,GCS_North_American_1983_CSRS,2020
+Band,Garden River First Nation,199,Garden River First Nation,-84.15020002,46.53684933,GCS_North_American_1983_CSRS,2020
+Band,Peerless Trout First Nation,478,Peerless Trout First Nation,-114.5806406,56.67960289,GCS_North_American_1983_CSRS,2020
+Band,Wuikinuxv Nation,541,Wuikinuxv Nation,-127.2320638,51.68011259,GCS_North_American_1983_CSRS,2020
+Band,Sandy Lake,211,Sandy Lake,-93.32765709,53.06308805,GCS_North_American_1983_CSRS,2020
+Band,Westbank First Nation,601,Westbank First Nation,-119.6053121,49.83981777,GCS_North_American_1983_CSRS,2020
+Band,Eastmain,57,Eastmain,-78.50258239,52.24425385,GCS_North_American_1983_CSRS,2020
+Band,Tsartlip,653,Tsartlip,-123.4674664,48.58127233,GCS_North_American_1983_CSRS,2020
+Band,Driftpile Cree Nation,450,Driftpile Cree Nation,-115.7824937,55.3432331,GCS_North_American_1983_CSRS,2020
+Band,Uchucklesaht,667,Uchucklesaht,-125.0381074,49.02048235,GCS_North_American_1983_CSRS,2020
+Band,Naicatchewenin,128,Naicatchewenin,-93.57314667,48.85954211,GCS_North_American_1983_CSRS,2020
+Band,Ahousaht,659,Ahousaht,-126.0560913,49.2780571,GCS_North_American_1983_CSRS,2020
+Band,Sachigo Lake,214,Sachigo Lake,-92.17820601,53.87288257,GCS_North_American_1983_CSRS,2020
+Band,Montana,442,Montana,-113.4411896,52.72783136,GCS_North_American_1983_CSRS,2020
+Band,George Gordon First Nation,391,George Gordon First Nation,-104.3019593,51.29625232,GCS_North_American_1983_CSRS,2020
+Band,Kwantlen First Nation,564,Kwantlen First Nation,-122.5654943,49.1714439,GCS_North_American_1983_CSRS,2020
+Band,Saugeen,123,Saugeen,-81.32869893,44.51303264,GCS_North_American_1983_CSRS,2020
+Band,Fond du Lac,351,Fond du Lac,-107.1889218,59.32748567,GCS_North_American_1983_CSRS,2020
+Band,Mowachaht/Muchalaht,630,Mowachaht/Muchalaht,-126.0721266,49.81098052,GCS_North_American_1983_CSRS,2020
+Band,Bigstone Cree Nation,458,Bigstone Cree Nation,-113.78296,55.94642528,GCS_North_American_1983_CSRS,2020
+Band,Kwaw-kwaw-Apilt,580,Kwaw-kwaw-Apilt,-121.9752457,49.16684968,GCS_North_American_1983_CSRS,2020
+Band,Chemawawin Cree Nation,309,Chemawawin Cree Nation,-99.80756013,53.10301087,GCS_North_American_1983_CSRS,2020
+Band,Chapleau Cree First Nation,221,Chapleau Cree First Nation,-83.44605134,47.81370358,GCS_North_American_1983_CSRS,2020
+Band,Dakota Plains,288,Dakota Plains,-98.52304269,49.8175868,GCS_North_American_1983_CSRS,2020
+Band,Ojibways of Onigaming First Nation,131,Ojibways of Onigaming First Nation,-93.92645909,49.17266996,GCS_North_American_1983_CSRS,2020
+Band,Lower Nicola,695,Lower Nicola,-120.8576815,50.13832774,GCS_North_American_1983_CSRS,2020
+Band,Star Blanket Cree Nation,387,Star Blanket Cree Nation,-103.3041909,50.96244286,GCS_North_American_1983_CSRS,2020
+Band,Wahta Mohawk,134,Wahta Mohawk,-79.77738263,44.99468503,GCS_North_American_1983_CSRS,2020
+Band,Shamattawa First Nation,307,Shamattawa First Nation,-92.09889823,55.87283406,GCS_North_American_1983_CSRS,2020
+Band,Grassy Narrows First Nation,149,Grassy Narrows First Nation,-93.99200621,50.15377561,GCS_North_American_1983_CSRS,2020
+Band,Black Lake,359,Black Lake,-105.603953,59.12921693,GCS_North_American_1983_CSRS,2020
+Band,Lheidli T'enneh,611,Lheidli T'enneh,-122.6143015,54.00883353,GCS_North_American_1983_CSRS,2020
+Band,Saddle Lake Cree Nation,462,Saddle Lake Cree Nation,-111.6905208,53.96936145,GCS_North_American_1983_CSRS,2020
+Band,Saulteaux,347,Saulteaux,-108.3294556,53.12555561,GCS_North_American_1983_CSRS,2020
+Band,Day Star,389,Day Star,-104.2224396,51.506491,GCS_North_American_1983_CSRS,2020
+Band,Gitsegukla,535,Gitsegukla,-127.8294997,55.08750975,GCS_North_American_1983_CSRS,2020
+Band,Conseil des Atikamekw de Wemotaci,77,Conseil des Atikamekw de Wemotaci,-73.78731918,47.90259313,GCS_North_American_1983_CSRS,2020
+Band,Lake Manitoba,271,Lake Manitoba,-98.60700357,50.94717514,GCS_North_American_1983_CSRS,2020
+Band,Norway House Cree Nation,278,Norway House Cree Nation,-97.77289371,53.98994975,GCS_North_American_1983_CSRS,2020
+Band,Apitipi Anicinapek Nation,233,Apitipi Anicinapek Nation,-79.9743632,48.55009597,GCS_North_American_1983_CSRS,2020
+Band,Gwa'Sala-Nakwaxda'xw,724,Gwa'Sala-Nakwaxda'xw,-127.496411,50.73417041,GCS_North_American_1983_CSRS,2020
+Band,Ka:'yu:'k't'h'/Che:k:tles7et'h' First Nations,638,Ka:'yu:'k't'h'/Che:k:tles7et'h' First Nations,-127.3782336,50.03057378,GCS_North_American_1983_CSRS,2020
+Band,Peguis,269,Peguis,-97.55859,51.30548,GCS_North_American_1983_CSRS,2020
+Band,Ditidaht,662,Ditidaht,-124.6697017,48.80927852,GCS_North_American_1983_CSRS,2020
+Band,Fort Severn,215,Fort Severn,-87.63660435,55.99047146,GCS_North_American_1983_CSRS,2020
+Band,Esk'etemc,711,Esk'etemc,-122.2364478,51.78865883,GCS_North_American_1983_CSRS,2020
+Band,Missanabie Cree,223,Missanabie Cree,-84.20179381,46.551792,GCS_North_American_1983_CSRS,2020
+Band,Henvey Inlet First Nation,231,Henvey Inlet First Nation,-80.56139575,45.97577274,GCS_North_American_1983_CSRS,2020
+Band,Beaver First Nation,445,Beaver First Nation,-116.274778,58.45579013,GCS_North_American_1983_CSRS,2020
+Band,Williams Lake First Nation,719,Williams Lake First Nation,-121.9939123,52.10829774,GCS_North_American_1983_CSRS,2020
+Band,Cree Nation of Nemaska,59,Cree Nation of Nemaska,-76.255146,51.685262,GCS_North_American_1983_CSRS,2020
+Band,Hollow Water,263,Hollow Water,-96.30228976,51.19238468,GCS_North_American_1983_CSRS,2020
+Band,Red Earth,356,Red Earth,-102.8611374,53.49095235,GCS_North_American_1983_CSRS,2020
+Band,Attawapiskat,143,Attawapiskat,-82.42515948,52.92546782,GCS_North_American_1983_CSRS,2020
+Band,Muskowekwan,392,Muskowekwan,-104.0044427,51.32707481,GCS_North_American_1983_CSRS,2020
+Band,Mohawks of Kahnawá:ke,70,Mohawks of Kahnawá:ke,-73.6762945,45.41394513,GCS_North_American_1983_CSRS,2020
+Band,Algonquins of Pikwakanagan First Nation,163,Algonquins of Pikwakanagan First Nation,-77.25008309,45.57549446,GCS_North_American_1983_CSRS,2020
+Band,White River First Nation,506,White River First Nation,-140.8753267,62.38375616,GCS_North_American_1983_CSRS,2020
+Band,Pine Creek,282,Pine Creek,-100.1668775,52.0454791,GCS_North_American_1983_CSRS,2020
+Band,Tlowitsis Tribe,637,Tlowitsis Tribe,-125.2088534,49.90945795,GCS_North_American_1983_CSRS,2020
+Band,Upper Cayuga,249,Upper Cayuga,-80.07489044,43.03258573,GCS_North_American_1983_CSRS,2020
+Band,Ebb and Flow,280,Ebb and Flow,-99.04283125,51.02379429,GCS_North_American_1983_CSRS,2020
+Band,Woodland Cree First Nation,474,Woodland Cree First Nation,-116.4042847,56.4716784,GCS_North_American_1983_CSRS,2020
+Band,Yekooche First Nation,728,Yekooche First Nation,-125.082199,54.597878,GCS_North_American_1983_CSRS,2020
+Band,Long Point First Nation,67,Long Point First Nation,-78.56483627,47.57754756,GCS_North_American_1983_CSRS,2020
+Band,Pasqua First Nation #79,383,Pasqua First Nation #79,-103.9908324,50.73882767,GCS_North_American_1983_CSRS,2020
+Band,Elsipogtog First Nation,3,Elsipogtog First Nation,-64.98564494,46.58614904,GCS_North_American_1983_CSRS,2020
+Band,Yunesit'in Government,717,Yunesit'in Government,-123.1399275,51.92683275,GCS_North_American_1983_CSRS,2020
+Band,Skowkale,571,Skowkale,-121.9405793,49.14171269,GCS_North_American_1983_CSRS,2020
+Band,La Nation Innu Matimekush-Lac John,87,La Nation Innu Matimekush-Lac John,-66.81399975,54.80451377,GCS_North_American_1983_CSRS,2020
+Band,Whispering Pines/Clinton,702,Whispering Pines/Clinton,-120.2407933,50.98669692,GCS_North_American_1983_CSRS,2020
+Band,Wabaseemoong Independent Nations,150,Wabaseemoong Independent Nations,-94.94315428,50.12991664,GCS_North_American_1983_CSRS,2020
+Band,Ucluelet First Nation,668,Ucluelet First Nation,-125.5259656,48.93641717,GCS_North_American_1983_CSRS,2020
+Band,Kinistin Saulteaux Nation,377,Kinistin Saulteaux Nation,-104.219113,52.60967325,GCS_North_American_1983_CSRS,2020
+Band,Northlands Denesuline First Nation,317,Northlands Denesuline First Nation,-101.4880094,58.61845874,GCS_North_American_1983_CSRS,2020
+Band,Sheguiandah,176,Sheguiandah,-81.91557368,45.8833198,GCS_North_American_1983_CSRS,2020
+Band,Biinjitiwaabik Zaaging Anishinaabek,197,Biinjitiwaabik Zaaging Anishinaabek,-88.12988668,49.43612622,GCS_North_American_1983_CSRS,2020
+Band,Peters First Nation,586,Peters First Nation,-121.6579455,49.29386512,GCS_North_American_1983_CSRS,2020
+Band,Matachewan,219,Matachewan,-80.64052514,48.06620552,GCS_North_American_1983_CSRS,2020
+Band,Waterhen Lake,402,Waterhen Lake,-108.4088321,54.52211118,GCS_North_American_1983_CSRS,2020
+Band,Lower Cayuga,250,Lower Cayuga,-80.06110423,43.02767627,GCS_North_American_1983_CSRS,2020
+Band,Sheshatshiu Innu First Nation,33,Sheshatshiu Innu First Nation,-60.1460667,53.52174115,GCS_North_American_1983_CSRS,2020
+Band,Deh Gáh Got'ie Dene First Nation,760,Deh Gáh Got'ie Dene First Nation,-117.6606804,61.3576308,GCS_North_American_1983_CSRS,2020
+Band,Gull Bay,188,Gull Bay,-89.106558,49.80445762,GCS_North_American_1983_CSRS,2020
+Band,Batchewana First Nation,198,Batchewana First Nation,-84.26152431,46.52850474,GCS_North_American_1983_CSRS,2020
+Band,Mississaugas of the Credit,120,Mississaugas of the Credit,-80.0951481,43.00001813,GCS_North_American_1983_CSRS,2020
+Band,Sts'ailes,559,Sts'ailes,-121.9141716,49.29851056,GCS_North_American_1983_CSRS,2020
+Band,Poundmaker,345,Poundmaker,-108.9743138,52.89611398,GCS_North_American_1983_CSRS,2020
+Band,Dene Tha',448,Dene Tha',-118.6894777,58.70245186,GCS_North_American_1983_CSRS,2020
+Band,Canim Lake,713,Canim Lake,-120.9933388,51.77111563,GCS_North_American_1983_CSRS,2020
+Band,Wunnumin,217,Wunnumin,-89.29634945,52.93410003,GCS_North_American_1983_CSRS,2020
+Band,Little Shuswap Lake,689,Little Shuswap Lake,-119.5996533,50.87024353,GCS_North_American_1983_CSRS,2020
+Band,Kawacatoose,393,Kawacatoose,-104.4043921,51.48178573,GCS_North_American_1983_CSRS,2020
+Band,Yale First Nation,589,Yale First Nation,-121.4259762,49.56249125,GCS_North_American_1983_CSRS,2020
+Band,Paul,441,Paul,-114.370707,53.52379593,GCS_North_American_1983_CSRS,2020
+Band,Mishkeegogamang,203,Mishkeegogamang,-90.22949237,51.09213586,GCS_North_American_1983_CSRS,2020
+Band,Upper Mohawk,257,Upper Mohawk,-80.17045511,43.06858997,GCS_North_American_1983_CSRS,2020
+Band,?Esdilagh First Nation,709,?Esdilagh First Nation,-122.496776,52.56284492,GCS_North_American_1983_CSRS,2020
+Band,Wahnapitae,232,Wahnapitae,-80.81123652,46.77296054,GCS_North_American_1983_CSRS,2020
+Band,Pikangikum,208,Pikangikum,-93.99465036,51.80050677,GCS_North_American_1983_CSRS,2020
+Band,Netmizaaggamig Nishnaabeg,195,Netmizaaggamig Nishnaabeg,-85.64421823,48.68611244,GCS_North_American_1983_CSRS,2020
+Band,Nibinamik First Nation,241,Nibinamik First Nation,-88.51612547,52.74551493,GCS_North_American_1983_CSRS,2020
+Band,Shawanaga First Nation,137,Shawanaga First Nation,-80.27345222,45.51398427,GCS_North_American_1983_CSRS,2020
+Band,Rolling River,291,Rolling River,-99.98661394,50.45381417,GCS_North_American_1983_CSRS,2020
+Band,Gameti First Nation,773,Gameti First Nation,-117.3523886,64.11287353,GCS_North_American_1983_CSRS,2020
+Band,K'atlodeeche First Nation,761,K'atlodeeche First Nation,-115.7546963,60.83697197,GCS_North_American_1983_CSRS,2020
+Band,Woodstock,17,Woodstock,-67.5773026,46.10927922,GCS_North_American_1983_CSRS,2020
+Band,Montagnais de Pakua Shipi,88,Montagnais de Pakua Shipi,-58.67143028,51.22769359,GCS_North_American_1983_CSRS,2020
+Band,Cheslatta Carrier Nation,620,Cheslatta Carrier Nation,-125.7141049,54.00247491,GCS_North_American_1983_CSRS,2020
+Band,Fort Nelson First Nation,543,Fort Nelson First Nation,-122.6598084,58.77013024,GCS_North_American_1983_CSRS,2020
+Band,Rainy River First Nations,130,Rainy River First Nations,-93.91264211,48.63724818,GCS_North_American_1983_CSRS,2020
+Band,T'Sou-ke First Nation,657,T'Sou-ke First Nation,-123.6971812,48.38464802,GCS_North_American_1983_CSRS,2020
+Band,Walker Mohawk,255,Walker Mohawk,-80.11527218,43.04763631,GCS_North_American_1983_CSRS,2020
+Band,Flying Dust First Nation,395,Flying Dust First Nation,-108.4043236,54.13541804,GCS_North_American_1983_CSRS,2020
+Band,Old Massett Village Council,669,Old Massett Village Council,-132.1750303,54.0344141,GCS_North_American_1983_CSRS,2020
+Band,Taku River Tlingit,501,Taku River Tlingit,-133.6586891,59.5058174,GCS_North_American_1983_CSRS,2020
+Band,Kanaka Bar,704,Kanaka Bar,-121.5620351,50.11217697,GCS_North_American_1983_CSRS,2020
+Band,Tŝideldel First Nation,710,Tŝideldel First Nation,-123.9524732,52.13889167,GCS_North_American_1983_CSRS,2020
+Band,Boston Bar First Nation,701,Boston Bar First Nation,-121.4514044,49.87707745,GCS_North_American_1983_CSRS,2020
+Band,Brunswick House,228,Brunswick House,-83.34305027,47.83579845,GCS_North_American_1983_CSRS,2020
+Band,Natoaganeg,7,Natoaganeg,-65.62838869,46.96458456,GCS_North_American_1983_CSRS,2020
+Band,Conseil de la Première Nation Abitibiwinni,55,Conseil de la Première Nation Abitibiwinni,-78.12071969,48.59726819,GCS_North_American_1983_CSRS,2020
+Band,Kispiox,532,Kispiox,-127.6982583,55.34889126,GCS_North_American_1983_CSRS,2020
+Band,Carry The Kettle,378,Carry The Kettle,-103.4674764,50.35494607,GCS_North_American_1983_CSRS,2020
+Band,Dechi Laot'i First Nations,774,Dechi Laot'i First Nations,-114.1850204,64.18986736,GCS_North_American_1983_CSRS,2020
+Band,Saulteau First Nations,542,Saulteau First Nations,-121.6530037,55.85221919,GCS_North_American_1983_CSRS,2020
+Band,Gwichya Gwich'in,753,Gwichya Gwich'in,-133.7435056,67.44185088,GCS_North_American_1983_CSRS,2020
+Band,Malahat Nation,647,Malahat Nation,-123.5204129,48.61367262,GCS_North_American_1983_CSRS,2020
+Band,Naotkamegwanning,158,Naotkamegwanning,-93.95879375,49.40897938,GCS_North_American_1983_CSRS,2020
+Band,Tla'amin Nation,554,Tla'amin Nation,-124.617391,49.90059,GCS_North_American_1983_CSRS,2020
+Band,Cat Lake,216,Cat Lake,-91.81381131,51.71906702,GCS_North_American_1983_CSRS,2020
+Band,Wapekeka,206,Wapekeka,-89.53875706,53.84386482,GCS_North_American_1983_CSRS,2020
+Band,Tsay Keh Dene,609,Tsay Keh Dene,-124.9631517,56.89186754,GCS_North_American_1983_CSRS,2020
+Band,Sandy Bay,283,Sandy Bay,-98.64734438,50.54932331,GCS_North_American_1983_CSRS,2020
+Band,Oneida,246,Oneida,-80.1482363,43.05979834,GCS_North_American_1983_CSRS,2020
+Band,Selkirk First Nation,498,Selkirk First Nation,-136.5729357,62.82386586,GCS_North_American_1983_CSRS,2020
+Band,Ts'kw'aylaxw First Nation,594,Ts'kw'aylaxw First Nation,-121.818993,50.88589275,GCS_North_American_1983_CSRS,2020
+Band,Lyackson,646,Lyackson,-123.6432711,49.04210663,GCS_North_American_1983_CSRS,2020
+Band,North Spirit Lake,238,North Spirit Lake,-93.01459195,52.50941813,GCS_North_American_1983_CSRS,2020
+Band,Anishnaabeg of Naongashiing,125,Anishnaabeg of Naongashiing,-94.31178508,49.12470348,GCS_North_American_1983_CSRS,2020
+Band,Nisga'a Village of Gingolx,671,Nisga'a Village of Gingolx,-129.9573334,54.99441242,GCS_North_American_1983_CSRS,2020
+Band,Xaxli'p,592,Xaxli'p,-121.8644238,50.73462522,GCS_North_American_1983_CSRS,2020
+Band,Cook's Ferry,694,Cook's Ferry,-121.3179111,50.42409072,GCS_North_American_1983_CSRS,2020
+Band,Popkum First Nation,585,Popkum First Nation,-121.7194606,49.20192789,GCS_North_American_1983_CSRS,2020
+Band,We'koqma'q First Nation,29,We'koqma'q First Nation,-61.13772355,45.97141527,GCS_North_American_1983_CSRS,2020
+Band,Ashcroft,685,Ashcroft,-121.3224748,50.72038688,GCS_North_American_1983_CSRS,2020
+Band,Loon River Cree,476,Loon River Cree,-115.395611,56.5355562,GCS_North_American_1983_CSRS,2020
+Band,Sturgeon Lake First Nation,360,Sturgeon Lake First Nation,-106.1260137,53.3863885,GCS_North_American_1983_CSRS,2020
+Band,Les Innus de Ekuanitshit,82,Les Innus de Ekuanitshit,-64.03004154,50.29146227,GCS_North_American_1983_CSRS,2020
+Band,M'Chigeeng First Nation,181,M'Chigeeng First Nation,-82.16171408,45.8252611,GCS_North_American_1983_CSRS,2020
+Band,The Crees of the Waskaganish First Nation,61,The Crees of the Waskaganish First Nation,-78.75335761,51.48619385,GCS_North_American_1983_CSRS,2020
+Band,Biigtigong Nishnaabeg,192,Biigtigong Nishnaabeg,-86.26900785,48.6260545,GCS_North_American_1983_CSRS,2020
+Band,Skin Tyee,729,Skin Tyee,-125.8819253,53.99562442,GCS_North_American_1983_CSRS,2020
+Band,Jean Marie River First Nation,770,Jean Marie River First Nation,-120.6251345,61.52536454,GCS_North_American_1983_CSRS,2020
+Band,Keeseekoose,367,Keeseekoose,-101.909194,51.71897988,GCS_North_American_1983_CSRS,2020
+Band,Red Pheasant,346,Red Pheasant,-108.1796185,52.45789347,GCS_North_American_1983_CSRS,2020
+Band,Couchiching First Nation,126,Couchiching First Nation,-93.35976921,48.63426852,GCS_North_American_1983_CSRS,2020
+Band,Gwawaenuk Tribe,627,Gwawaenuk Tribe,-126.8221332,50.92402074,GCS_North_American_1983_CSRS,2020
+Band,Sturgeon Lake Cree Nation,455,Sturgeon Lake Cree Nation,-117.4180962,55.06759463,GCS_North_American_1983_CSRS,2020
+Band,O-Pipon-Na-Piwin Cree Nation,318,O-Pipon-Na-Piwin Cree Nation,-98.93281295,56.77446353,GCS_North_American_1983_CSRS,2020
+Band,Shoal Lake No.40,155,Shoal Lake No.40,-95.13574475,49.61399338,GCS_North_American_1983_CSRS,2020
+Band,Piikani Nation,436,Piikani Nation,-113.7489525,49.54873862,GCS_North_American_1983_CSRS,2020
+Band,Nation Anishnabe du Lac Simon,63,Nation Anishnabe du Lac Simon,-77.35256415,48.0580724,GCS_North_American_1983_CSRS,2020
+Band,Moosomin,342,Moosomin,-108.3165086,53.08272776,GCS_North_American_1983_CSRS,2020
+Band,Onondaga Clear Sky,247,Onondaga Clear Sky,-80.03064458,43.01641606,GCS_North_American_1983_CSRS,2020
+Band,Cayoose Creek,591,Cayoose Creek,-121.9340601,50.67430382,GCS_North_American_1983_CSRS,2020
+Band,Chippewas of Nawash First Nation,122,Chippewas of Nawash First Nation,-81.02682287,44.90303172,GCS_North_American_1983_CSRS,2020
+Band,Communauté anicinape de Kitcisakik,62,Communauté anicinape de Kitcisakik,-77.30543368,47.61810697,GCS_North_American_1983_CSRS,2020
+Band,Klahoose First Nation,553,Klahoose First Nation,-124.921269,50.12583127,GCS_North_American_1983_CSRS,2020
+Band,Homalco,552,Homalco,-125.2436084,49.95163974,GCS_North_American_1983_CSRS,2020
+Band,Stoney,471,Stoney,-114.8461966,51.1701005,GCS_North_American_1983_CSRS,2020
+Band,Semiahmoo,569,Semiahmoo,-122.7777408,49.014532,GCS_North_American_1983_CSRS,2020
+Band,Michipicoten,225,Michipicoten,-84.92716448,47.961158,GCS_North_American_1983_CSRS,2020
+Band,Pehdzeh Ki First Nation,756,Pehdzeh Ki First Nation,-123.3605507,63.18429381,GCS_North_American_1983_CSRS,2020
+Band,Tuscarora,245,Tuscarora,-80.03859936,43.01917087,GCS_North_American_1983_CSRS,2020
+Band,?aqam,602,?aqam,-115.7545118,49.58349261,GCS_North_American_1983_CSRS,2020
+Band,Ermineskin Tribe,443,Ermineskin Tribe,-113.4524753,52.83585149,GCS_North_American_1983_CSRS,2020
+Band,Slate Falls Nation,259,Slate Falls Nation,-91.61823714,51.14937597,GCS_North_American_1983_CSRS,2020
+Band,Swan Lake,293,Swan Lake,-98.84115,49.397196,GCS_North_American_1983_CSRS,2020
+Band,Beaver Lake Cree Nation,460,Beaver Lake Cree Nation,-111.9074442,54.68092454,GCS_North_American_1983_CSRS,2020
+Band,Waswanipi,56,Waswanipi,-75.959101,49.702264,GCS_North_American_1983_CSRS,2020
+Band,Ulkatcho,722,Ulkatcho,-125.3066757,52.46728595,GCS_North_American_1983_CSRS,2020
+Band,Berens River,266,Berens River,-96.96748281,52.34312862,GCS_North_American_1983_CSRS,2020
+Band,Nooaitch,699,Nooaitch,-121.0373446,50.1539782,GCS_North_American_1983_CSRS,2020
+Band,Salt River First Nation #195,759,Salt River First Nation #195,-112.234876,60.10696096,GCS_North_American_1983_CSRS,2020
+Band,Ta'an Kwach'an,508,Ta'an Kwach'an,-135.0768104,60.73589476,GCS_North_American_1983_CSRS,2020
+Band,Washagamis Bay,235,Washagamis Bay,-94.58714442,49.7145092,GCS_North_American_1983_CSRS,2020
+Band,Musqueam,550,Musqueam,-123.1992,49.22494,GCS_North_American_1983_CSRS,2020
+Band,Mohawks of the Bay of Quinte,164,Mohawks of the Bay of Quinte,-77.14339211,44.18693775,GCS_North_American_1983_CSRS,2020
+Band,Liard First Nation,502,Liard First Nation,-128.7165467,60.06601545,GCS_North_American_1983_CSRS,2020
+Band,Nahanni Butte,766,Nahanni Butte,-123.3826235,61.03123528,GCS_North_American_1983_CSRS,2020
+Band,Nisga'a Village of Laxgalt'sap,678,Nisga'a Village of Laxgalt'sap,-129.5837187,55.03529201,GCS_North_American_1983_CSRS,2020
+Band,Little Saskatchewan,274,Little Saskatchewan,-98.56038123,51.68331981,GCS_North_American_1983_CSRS,2020
+Band,Osoyoos,596,Osoyoos,-119.5331351,49.18380924,GCS_North_American_1983_CSRS,2020
+Band,Sunchild First Nation,434,Sunchild First Nation,-115.3399552,52.6997629,GCS_North_American_1983_CSRS,2020
+Band,Sumas First Nation,578,Sumas First Nation,-122.1946453,49.05527836,GCS_North_American_1983_CSRS,2020
+Band,Première Nation Wolastoqiyik (Malécite) Wahsipekuk,54,Première Nation Wolastoqiyik (Malécite) Wahsipekuk,-69.50763873,47.91802993,GCS_North_American_1983_CSRS,2020
+Band,Kwikwasut'inuxw Haxwa'mis,625,Kwikwasut'inuxw Haxwa'mis,-126.6006333,50.69639679,GCS_North_American_1983_CSRS,2020
+Band,Mikisew Cree First Nation,461,Mikisew Cree First Nation,-111.1833273,58.71129957,GCS_North_American_1983_CSRS,2020
+Band,Prophet River First Nation,544,Prophet River First Nation,-122.6981776,58.09196937,GCS_North_American_1983_CSRS,2020
+Band,Oneida Nation of the Thames,169,Oneida Nation of the Thames,-81.40975981,42.81942534,GCS_North_American_1983_CSRS,2020
+Band,Shxwhá:y Village,570,Shxwhá:y Village,-121.9889236,49.1689698,GCS_North_American_1983_CSRS,2020
+Band,Songhees Nation,656,Songhees Nation,-123.428152,48.44143,GCS_North_American_1983_CSRS,2020
+Band,Mississaugas of Scugog Island First Nation,140,Mississaugas of Scugog Island First Nation,-78.8806051,44.19397309,GCS_North_American_1983_CSRS,2020
+Band,Ochapowace,363,Ochapowace,-102.3944049,50.46998499,GCS_North_American_1983_CSRS,2020
+Band,Cross Lake Band of Indians,276,Cross Lake Band of Indians,-97.78839389,54.6215058,GCS_North_American_1983_CSRS,2020
+Band,Fisher River,264,Fisher River,-97.38721232,51.43788941,GCS_North_American_1983_CSRS,2020
+Band,Tl'azt'en Nation,617,Tl'azt'en Nation,-124.7235728,54.65586883,GCS_North_American_1983_CSRS,2020
+Band,Dauphin River,316,Dauphin River,-98.06537758,51.96317377,GCS_North_American_1983_CSRS,2020
+Band,Six Nations of the Grand River,121,Six Nations of the Grand River,-80.11751507,43.07040711,GCS_North_American_1983_CSRS,2020
+Band,Pacheedaht First Nation,658,Pacheedaht First Nation,-124.4077011,48.57677361,GCS_North_American_1983_CSRS,2020
+Band,Miawpukek,47,Miawpukek,-55.75733636,47.86409864,GCS_North_American_1983_CSRS,2020
+Band,Mitaanjigamiing First Nation,133,Mitaanjigamiing First Nation,-93.38618264,48.711037,GCS_North_American_1983_CSRS,2020
+Band,Alexander,438,Alexander,-113.9205546,53.80385891,GCS_North_American_1983_CSRS,2020
+Band,Alexis Nakota Sioux Nation,437,Alexis Nakota Sioux Nation,-114.4870373,53.72886002,GCS_North_American_1983_CSRS,2020
+Band,Lax Kw'alaams,674,Lax Kw'alaams,-130.4331405,54.55856817,GCS_North_American_1983_CSRS,2020
+Band,Teslin Tlingit Council,499,Teslin Tlingit Council,-132.7298594,60.16781053,GCS_North_American_1983_CSRS,2020
+Band,Red Rock,193,Red Rock,-88.24532269,49.02890794,GCS_North_American_1983_CSRS,2020
+Band,Cree Nation of Chisasibi,58,Cree Nation of Chisasibi,-78.896396,53.790667,GCS_North_American_1983_CSRS,2020
+Band,West Moberly First Nations,545,West Moberly First Nations,-121.8309238,55.83063378,GCS_North_American_1983_CSRS,2020
+Band,Kluane First Nation,503,Kluane First Nation,-138.990165,61.35645863,GCS_North_American_1983_CSRS,2020
+Band,Bear River,21,Bear River,-65.63366592,44.55962671,GCS_North_American_1983_CSRS,2020
+Band,Xeni Gwet'in First Nations Government,714,Xeni Gwet'in First Nations Government,-124.0956306,51.41537033,GCS_North_American_1983_CSRS,2020
+Band,Sechelt,551,Sechelt,-123.7493704,49.47384586,GCS_North_American_1983_CSRS,2020
+Band,Bloodvein,267,Bloodvein,-96.69692728,51.78341634,GCS_North_American_1983_CSRS,2020
+Band,Skidegate,670,Skidegate,-131.9903814,53.26956151,GCS_North_American_1983_CSRS,2020
+Band,York Factory First Nation,304,York Factory First Nation,-96.09898778,56.0874521,GCS_North_American_1983_CSRS,2020
+Band,Leq'á:mel First Nation,579,Leq'á:mel First Nation,-122.0343362,49.20400384,GCS_North_American_1983_CSRS,2020
+Band,Lake St. Martin,275,Lake St. Martin,-98.43515634,51.74853046,GCS_North_American_1983_CSRS,2020
+Band,Nisga'a Village of Gitwinksihlkw,679,Nisga'a Village of Gitwinksihlkw,-129.2209011,55.1925223,GCS_North_American_1983_CSRS,2020
+Band,Aamjiwnaang,172,Aamjiwnaang,-82.4160557,42.93599504,GCS_North_American_1983_CSRS,2020
+Band,Innue Essipit,86,Innue Essipit,-69.39863023,48.34323576,GCS_North_American_1983_CSRS,2020
+Band,Serpent River,201,Serpent River,-82.4681282,46.20206599,GCS_North_American_1983_CSRS,2020
+Band,Saint Mary's,15,Saint Mary's,-66.63126121,45.97141999,GCS_North_American_1983_CSRS,2020
+Band,Big River,404,Big River,-107.1107661,53.5747946,GCS_North_American_1983_CSRS,2020
+Band,Mushuau Innu First Nation,32,Mushuau Innu First Nation,-61.11923,55.91395,GCS_North_American_1983_CSRS,2020
+Band,Shoal Lake Cree Nation,357,Shoal Lake Cree Nation,-102.6323131,53.48298804,GCS_North_American_1983_CSRS,2020
+Band,Chipewyan Prairie First Nation,470,Chipewyan Prairie First Nation,-110.7242825,55.93126093,GCS_North_American_1983_CSRS,2020
+Band,Bunibonibee Cree Nation,301,Bunibonibee Cree Nation,-95.26475891,54.9498235,GCS_North_American_1983_CSRS,2020
+Band,Lac Seul,205,Lac Seul,-92.30026238,50.292598,GCS_North_American_1983_CSRS,2020
+Band,Nisichawayasihk Cree Nation,313,Nisichawayasihk Cree Nation,-98.88575191,55.78300161,GCS_North_American_1983_CSRS,2020
+Band,Mathias Colomb,311,Mathias Colomb,-101.316897,55.742055,GCS_North_American_1983_CSRS,2020
+Band,Tseycum,655,Tseycum,-123.4513444,48.66603949,GCS_North_American_1983_CSRS,2020
+Band,Tobacco Plains,603,Tobacco Plains,-115.0819054,49.09333391,GCS_North_American_1983_CSRS,2020
+Band,Sucker Creek,456,Sucker Creek,-116.1542595,55.40420096,GCS_North_American_1983_CSRS,2020
+Band,Atikameksheng Anishnawbek,224,Atikameksheng Anishnawbek,-81.17876023,46.39797902,GCS_North_American_1983_CSRS,2020
+Band,Sheshegwaning,178,Sheshegwaning,-82.836851,45.933477,GCS_North_American_1983_CSRS,2020
+Band,St. Theresa Point,298,St. Theresa Point,-94.85123575,53.817286,GCS_North_American_1983_CSRS,2020
+Band,Kitasoo Xai'xais Nation,540,Kitasoo Xai'xais Nation,-128.520127,52.587429,GCS_North_American_1983_CSRS,2020
+Band,Thunderchild First Nation,349,Thunderchild First Nation,-108.8746459,53.48005024,GCS_North_American_1983_CSRS,2020
+Band,Skawahlook First Nation,582,Skawahlook First Nation,-121.6061836,49.35684561,GCS_North_American_1983_CSRS,2020
+Band,North Caribou Lake,204,North Caribou Lake,-91.34701894,52.94825439,GCS_North_American_1983_CSRS,2020
+Band,Oromocto First Nation,12,Oromocto First Nation,-66.464064,45.853388,GCS_North_American_1983_CSRS,2020
+Band,Little Salmon/Carmacks First Nation,492,Little Salmon/Carmacks First Nation,-136.2888648,62.09616749,GCS_North_American_1983_CSRS,2020
+Band,Pinaymootang First Nation,272,Pinaymootang First Nation,-98.68369137,51.57378742,GCS_North_American_1983_CSRS,2020
+Band,SIPEKNE'KATIK,25,SIPEKNE'KATIK,-63.48891482,45.09517472,GCS_North_American_1983_CSRS,2020
+Band,Sawridge First Nation,454,Sawridge First Nation,-114.8397107,55.29758767,GCS_North_American_1983_CSRS,2020
+Band,Skownan First Nation,281,Skownan First Nation,-99.59829495,51.96862138,GCS_North_American_1983_CSRS,2020
+Band,Black River First Nation,260,Black River First Nation,-96.30991,50.83036,GCS_North_American_1983_CSRS,2020
+Band,Shxw'ow'hamel First Nation,587,Shxw'ow'hamel First Nation,-121.6066646,49.34302592,GCS_North_American_1983_CSRS,2020
+Band,Ehattesaht,634,Ehattesaht,-126.8589892,49.98514634,GCS_North_American_1983_CSRS,2020
+Band,Wagmatcook,28,Wagmatcook,-60.91820381,46.07383333,GCS_North_American_1983_CSRS,2020
+Band,Qualicum First Nation,651,Qualicum First Nation,-124.6157538,49.39697756,GCS_North_American_1983_CSRS,2020
+Band,Ts'uubaa-asatx,643,Ts'uubaa-asatx,-124.0697465,48.82604956,GCS_North_American_1983_CSRS,2020
+Band,Kasabonika Lake,210,Kasabonika Lake,-88.60844764,53.53225848,GCS_North_American_1983_CSRS,2020
+Band,Pictou Landing,24,Pictou Landing,-62.652287,45.674388,GCS_North_American_1983_CSRS,2020
+Band,Blueberry River First Nations,547,Blueberry River First Nations,-121.1124132,56.7040408,GCS_North_American_1983_CSRS,2020
+Band,Bande des Innus de Pessamit,85,Bande des Innus de Pessamit,-68.63816469,48.93831163,GCS_North_American_1983_CSRS,2020
+Band,Lhtako Dene Nation,715,Lhtako Dene Nation,-122.4510894,52.95489436,GCS_North_American_1983_CSRS,2020
+Band,God's Lake First Nation,296,God's Lake First Nation,-94.50182983,54.5473761,GCS_North_American_1983_CSRS,2020
+Band,Beecher Bay,640,Beecher Bay,-123.608302,48.33756377,GCS_North_American_1983_CSRS,2020
+Band,Niharondasa Seneca,252,Niharondasa Seneca,-80.10189618,43.04278015,GCS_North_American_1983_CSRS,2020
+Band,Kwanlin Dun First Nation,500,Kwanlin Dun First Nation,-135.108155,60.71905902,GCS_North_American_1983_CSRS,2020
+Band,Fort Good Hope,752,Fort Good Hope,-128.6375416,66.25714734,GCS_North_American_1983_CSRS,2020
+Band,Peepeekisis Cree Nation No.81,384,Peepeekisis Cree Nation No.81,-103.3358542,50.86623961,GCS_North_American_1983_CSRS,2020
+Band,Northwest Angle No.33,151,Northwest Angle No.33,-95.01585368,49.36314603,GCS_North_American_1983_CSRS,2020
+Band,Tallcree Tribal Government,446,Tallcree Tribal Government,-115.6182188,58.06435237,GCS_North_American_1983_CSRS,2020
+Band,Niisaachewan Anishinaabe Nation,147,Niisaachewan Anishinaabe Nation,-94.54344007,49.89244761,GCS_North_American_1983_CSRS,2020
+Band,Wahpeton Dakota Nation,358,Wahpeton Dakota Nation,-105.897007,53.27662607,GCS_North_American_1983_CSRS,2020
+Band,Mosakahiken Cree Nation,312,Mosakahiken Cree Nation,-100.3148201,53.70558589,GCS_North_American_1983_CSRS,2020
+Band,Penticton,597,Penticton,-119.6447628,49.49136808,GCS_North_American_1983_CSRS,2020
+Band,Sambaa K'e First Nation,767,Sambaa K'e First Nation,-121.2413947,60.44181228,GCS_North_American_1983_CSRS,2020
+Band,K'ómoks First Nation,624,K'ómoks First Nation,-124.9589038,49.6787687,GCS_North_American_1983_CSRS,2020
+Band,Gitxaala Nation,672,Gitxaala Nation,-130.4330759,53.79638212,GCS_North_American_1983_CSRS,2020
+Band,Fort William,187,Fort William,-89.26267604,48.3543357,GCS_North_American_1983_CSRS,2020
+Band,Dog Rib Rae,765,Dog Rib Rae,-116.0500077,62.83002415,GCS_North_American_1983_CSRS,2020
+Band,New Westminster,566,New Westminster,-123.023974,49.236323,GCS_North_American_1983_CSRS,2020
+Band,Beausoleil,141,Beausoleil,-80.17510182,44.8212304,GCS_North_American_1983_CSRS,2020
+Band,Bearspaw,473,Bearspaw,-114.8462875,51.17001292,GCS_North_American_1983_CSRS,2020
+Band,Potlotek First Nation,22,Potlotek First Nation,-60.76764293,45.68315422,GCS_North_American_1983_CSRS,2020
+Band,Onion Lake Cree Nation,344,Onion Lake Cree Nation,-109.9639775,53.71264566,GCS_North_American_1983_CSRS,2020
+Band,Les Atikamekw de Manawan,78,Les Atikamekw de Manawan,-74.38811717,47.22086571,GCS_North_American_1983_CSRS,2020
+Band,Abegweit,1,Abegweit,-62.90261867,46.35792753,GCS_North_American_1983_CSRS,2020
+Band,Muscowpetung,381,Muscowpetung,-104.2838799,50.77598387,GCS_North_American_1983_CSRS,2020
+Band,Seine River First Nation,132,Seine River First Nation,-92.4280635,48.71889749,GCS_North_American_1983_CSRS,2020
+Band,Kinonjeoshtegon First Nation,268,Kinonjeoshtegon First Nation,-97.3109533,51.91709498,GCS_North_American_1983_CSRS,2020
+Band,Siska,706,Siska,-121.5715549,50.13634618,GCS_North_American_1983_CSRS,2020
+Band,Atikamekw d'Opitciwan,79,Atikamekw d'Opitciwan,-74.9379602,48.65934061,GCS_North_American_1983_CSRS,2020
+Band,Tsuut'ina Nation,432,Tsuut'ina Nation,-114.1459481,50.94835079,GCS_North_American_1983_CSRS,2020
+Band,Nipissing First Nation,220,Nipissing First Nation,-79.87386116,46.32341589,GCS_North_American_1983_CSRS,2020
+Band,Gambler First Nation,294,Gambler First Nation,-101.382376,50.59467312,GCS_North_American_1983_CSRS,2020
+Band,Garden Hill First Nations,297,Garden Hill First Nations,-94.65354761,53.87277927,GCS_North_American_1983_CSRS,2020
+Band,Martin Falls,186,Martin Falls,-85.92350697,51.63206221,GCS_North_American_1983_CSRS,2020
+Band,Bay of Quinte Mohawk,244,Bay of Quinte Mohawk,-80.12939795,43.07184682,GCS_North_American_1983_CSRS,2020
+Band,Gitanmaax,531,Gitanmaax,-127.6769595,55.25523538,GCS_North_American_1983_CSRS,2020
+Band,Naskapi Nation of Kawawachikamach,81,Naskapi Nation of Kawawachikamach,-66.76201657,54.86363312,GCS_North_American_1983_CSRS,2020
+Band,Tsawwassen First Nation,577,Tsawwassen First Nation,-123.0976963,49.03788266,GCS_North_American_1983_CSRS,2020
+Band,Gitwangak,536,Gitwangak,-128.055827,55.1024,GCS_North_American_1983_CSRS,2020
+Band,N'Quatqua,556,N'Quatqua,-122.48457,50.550072,GCS_North_American_1983_CSRS,2020
+Band,Hupacasath First Nation,664,Hupacasath First Nation,-124.8250905,49.26579844,GCS_North_American_1983_CSRS,2020
+Band,Caldwell,165,Caldwell,-82.59741885,42.05280589,GCS_North_American_1983_CSRS,2020
+Band,Lubicon Lake,453,Lubicon Lake,-116.1173854,56.44839909,GCS_North_American_1983_CSRS,2020
+Band,Albany,142,Albany,-81.683575,52.215309,GCS_North_American_1983_CSRS,2020
+Band,Delaware,253,Delaware,-80.13569874,43.05518218,GCS_North_American_1983_CSRS,2020
+Band,Campbell River,622,Campbell River,-125.2479194,50.0316574,GCS_North_American_1983_CSRS,2020
+Band,Teetl'it Gwich'in Band Council,751,Teetl'it Gwich'in Band Council,-134.8860439,67.43745173,GCS_North_American_1983_CSRS,2020
+Band,Misipawistik Cree Nation,310,Misipawistik Cree Nation,-99.25689968,53.17924755,GCS_North_American_1983_CSRS,2020
+Band,Thessalon,202,Thessalon,-83.41572349,46.25957252,GCS_North_American_1983_CSRS,2020
+Band,Hagwilget Village Council,534,Hagwilget Village Council,-127.6003006,55.25353846,GCS_North_American_1983_CSRS,2020
+Band,Inuvik Native,780,Inuvik Native,-133.7298129,68.36100416,GCS_North_American_1983_CSRS,2020
+Band,Muskrat Dam Lake,213,Muskrat Dam Lake,-91.77994766,53.40401921,GCS_North_American_1983_CSRS,2020
+Band,Lower Similkameen,598,Lower Similkameen,-119.723798,49.05143216,GCS_North_American_1983_CSRS,2020
+Band,Lac La Ronge,353,Lac La Ronge,-105.3038105,55.09888546,GCS_North_American_1983_CSRS,2020
+Band,Chiniki,433,Chiniki,-114.8465542,51.1697996,GCS_North_American_1983_CSRS,2020
+Band,Enoch Cree Nation #440,440,Enoch Cree Nation #440,-113.7555418,53.501955,GCS_North_American_1983_CSRS,2020
+Band,Magnetawan,174,Magnetawan,-80.50075679,45.76940789,GCS_North_American_1983_CSRS,2020
+Band,Première Nation des Innus de Nutashkuan,83,Première Nation des Innus de Nutashkuan,-61.80242154,50.13365763,GCS_North_American_1983_CSRS,2020
+Band,Weenusk,146,Weenusk,-85.42101384,55.00878088,GCS_North_American_1983_CSRS,2020
+Band,Cote First Nation 366,366,Cote First Nation 366,-101.9026888,51.64388234,GCS_North_American_1983_CSRS,2020
+Band,Kapawe'no First Nation,452,Kapawe'no First Nation,-116.1548627,55.54863395,GCS_North_American_1983_CSRS,2020
+Band,Aitchelitz,558,Aitchelitz,-121.9868968,49.15041731,GCS_North_American_1983_CSRS,2020
+Band,Horse Lake First Nation,449,Horse Lake First Nation,-119.693694,55.35171627,GCS_North_American_1983_CSRS,2020
+Band,Mistawasis Nêhiyawak,374,Mistawasis Nêhiyawak,-106.8066153,53.17493868,GCS_North_American_1983_CSRS,2020
+Band,Kitselas,680,Kitselas,-128.4106922,54.60834741,GCS_North_American_1983_CSRS,2020
+Band,Lutsel K'e Dene First Nation,764,Lutsel K'e Dene First Nation,-110.738708,62.40472144,GCS_North_American_1983_CSRS,2020
+Band,Wuskwi Sipihk First Nation,324,Wuskwi Sipihk First Nation,-100.8705155,52.50906928,GCS_North_American_1983_CSRS,2020
+Band,Moravian of the Thames,167,Moravian of the Thames,-81.87436613,42.56397873,GCS_North_American_1983_CSRS,2020
+Band,Pays Plat,191,Pays Plat,-87.55723745,48.88316696,GCS_North_American_1983_CSRS,2020
+Band,Canoe Lake Cree First Nation,394,Canoe Lake Cree First Nation,-108.1573536,55.16359443,GCS_North_American_1983_CSRS,2020
+Band,Metepenagiag Mi'kmaq Nation,14,Metepenagiag Mi'kmaq Nation,-65.8263981,46.94241594,GCS_North_American_1983_CSRS,2020
+Band,Louis Bull,439,Louis Bull,-113.5721456,52.87472152,GCS_North_American_1983_CSRS,2020
+Band,Cold Lake First Nations,464,Cold Lake First Nations,-110.2361825,54.33705071,GCS_North_American_1983_CSRS,2020
+Band,Sioux Valley Dakota Nation,290,Sioux Valley Dakota Nation,-100.48475,49.85911,GCS_North_American_1983_CSRS,2020
+Band,Kwadacha,610,Kwadacha,-125.6302822,57.42367325,GCS_North_American_1983_CSRS,2020
+Band,Bingwi Neyaashi Anishinaabek,196,Bingwi Neyaashi Anishinaabek,-88.133877,49.461806,GCS_North_American_1983_CSRS,2020
+Band,Buffalo Point First Nation,265,Buffalo Point First Nation,-95.23788,49.0123,GCS_North_American_1983_CSRS,2020
+Band,Bridge River,590,Bridge River,-121.9640976,50.76954081,GCS_North_American_1983_CSRS,2020
+Band,Burns Lake,619,Burns Lake,-125.771113,54.2366571,GCS_North_American_1983_CSRS,2020
+Band,Little Grand Rapids,270,Little Grand Rapids,-95.45558498,52.01802834,GCS_North_American_1983_CSRS,2020
+Band,Halalt,645,Halalt,-123.6961245,48.87399504,GCS_North_American_1983_CSRS,2020
+Band,Squiala First Nation,574,Squiala First Nation,-121.979421,49.158014,GCS_North_American_1983_CSRS,2020
+Band,Duncan's First Nation,451,Duncan's First Nation,-117.865029,56.10208054,GCS_North_American_1983_CSRS,2020
+Band,Temagami First Nation,222,Temagami First Nation,-80.07211576,46.97319543,GCS_North_American_1983_CSRS,2020
+Band,Dease River,504,Dease River,-129.2905465,59.29492165,GCS_North_American_1983_CSRS,2020
+Band,Lac La Croix,127,Lac La Croix,-92.1611648,48.37421657,GCS_North_American_1983_CSRS,2020
+Band,Brokenhead Ojibway Nation,261,Brokenhead Ojibway Nation,-96.61636,50.36686,GCS_North_American_1983_CSRS,2020
+Band,Peter Ballantyne Cree Nation,355,Peter Ballantyne Cree Nation,-102.9341717,55.17239673,GCS_North_American_1983_CSRS,2020
+Band,Montagnais de Unamen Shipu,84,Montagnais de Unamen Shipu,-60.66535043,50.21711628,GCS_North_American_1983_CSRS,2020
+Band,Sq'éwlets,568,Sq'éwlets,-122.002456,49.2359419,GCS_North_American_1983_CSRS,2020
+Band,English River First Nation,400,English River First Nation,-107.7172826,55.91533674,GCS_North_American_1983_CSRS,2020
+Band,Frog Lake,465,Frog Lake,-110.3972597,53.86718715,GCS_North_American_1983_CSRS,2020
+Band,First Nation of Nacho Nyak Dun,495,First Nation of Nacho Nyak Dun,-135.8972945,63.59480444,GCS_North_American_1983_CSRS,2020
+Band,Piapot,385,Piapot,-104.4271017,50.77705143,GCS_North_American_1983_CSRS,2020
+Band,Moose Cree First Nation,144,Moose Cree First Nation,-80.60051648,51.26263272,GCS_North_American_1983_CSRS,2020
+Band,Boothroyd,700,Boothroyd,-121.4849646,49.96307075,GCS_North_American_1983_CSRS,2020
+Band,Pabineau,13,Pabineau,-65.66912271,47.53327415,GCS_North_American_1983_CSRS,2020
+Band,Tk'emlúps te Secwépemc,688,Tk'emlúps te Secwépemc,-120.2942223,50.67886172,GCS_North_American_1983_CSRS,2020
+Band,Deline First Nation,754,Deline First Nation,-123.425492,65.18855685,GCS_North_American_1983_CSRS,2020
+Band,Sayisi Dene First Nation,303,Sayisi Dene First Nation,-98.48648543,58.71612358,GCS_North_American_1983_CSRS,2020
+Band,Cape Mudge,623,Cape Mudge,-125.2905634,50.01861443,GCS_North_American_1983_CSRS,2020
+Band,Champagne,493,Champagne,-136.4813642,60.78612793,GCS_North_American_1983_CSRS,2020
+Band,Okanagan,616,Okanagan,-119.3181038,50.35622202,GCS_North_American_1983_CSRS,2020
+Band,Halfway River First Nation,546,Halfway River First Nation,-121.964969,56.513367,GCS_North_American_1983_CSRS,2020
+Band,Wikwemikong,175,Wikwemikong,-81.72808962,45.79754172,GCS_North_American_1983_CSRS,2020
+Band,Micmacs of Gesgapegiag,52,Micmacs of Gesgapegiag,-65.92120625,48.20209756,GCS_North_American_1983_CSRS,2020
+Band,Quatsino,633,Quatsino,-127.57128,50.614095,GCS_North_American_1983_CSRS,2020
+Band,Kitsumkalum,681,Kitsumkalum,-128.667329,54.522887,GCS_North_American_1983_CSRS,2020
+Band,Tl'etinqox Government,712,Tl'etinqox Government,-123.1763787,52.01698365,GCS_North_American_1983_CSRS,2020
+Band,Hiawatha First Nation,162,Hiawatha First Nation,-78.21215835,44.17313733,GCS_North_American_1983_CSRS,2020
+Band,Ahtahkakoop,406,Ahtahkakoop,-106.9305316,53.37144851,GCS_North_American_1983_CSRS,2020
+Band,Pauingassi First Nation,327,Pauingassi First Nation,-95.3741258,52.15760621,GCS_North_American_1983_CSRS,2020
+Band,Witchekan Lake,407,Witchekan Lake,-107.6032725,53.51147911,GCS_North_American_1983_CSRS,2020
+Band,Union Bar First Nation,588,Union Bar First Nation,-121.4344669,49.43738796,GCS_North_American_1983_CSRS,2020
+Band,Paqtnkek Mi'kmaw Nation,19,Paqtnkek Mi'kmaw Nation,-61.73829752,45.60157993,GCS_North_American_1983_CSRS,2020
+Band,Fort Folly,9,Fort Folly,-64.50283828,45.89065632,GCS_North_American_1983_CSRS,2020
+Band,Webequie,240,Webequie,-87.35969666,52.98282376,GCS_North_American_1983_CSRS,2020
+Band,Dokis,218,Dokis,-80.03238072,46.12954921,GCS_North_American_1983_CSRS,2020
+Band,Saik'uz First Nation,615,Saik'uz First Nation,-124.1140332,53.94339054,GCS_North_American_1983_CSRS,2020
+Band,Heart Lake,469,Heart Lake,-111.5392857,55.02981045,GCS_North_American_1983_CSRS,2020
+Band,"Behdzi Ahda"" First Nation",771,"Behdzi Ahda"" First Nation",-126.0871113,67.03941166,GCS_North_American_1983_CSRS,2020
+Band,Katzie,563,Katzie,-122.6769305,49.2014254,GCS_North_American_1983_CSRS,2020
+Band,Birch Narrows First Nation,403,Birch Narrows First Nation,-108.6888751,56.47223511,GCS_North_American_1983_CSRS,2020
+Band,Qalipu Mi'kmaq First Nation,34,Qalipu Mi'kmaq First Nation,-57.93739902,48.95031076,GCS_North_American_1983_CSRS,2020
+Band,Glen Vowell,533,Glen Vowell,-127.679945,55.309553,GCS_North_American_1983_CSRS,2020
+Band,Lower Kootenay,606,Lower Kootenay,-116.5162654,49.06674263,GCS_North_American_1983_CSRS,2020
+Band,Poplar River First Nation,277,Poplar River First Nation,-97.27696859,52.99431388,GCS_North_American_1983_CSRS,2020
+Band,Smith's Landing First Nation,477,Smith's Landing First Nation,-111.8394959,59.98863078,GCS_North_American_1983_CSRS,2020
+Band,Kebaowek First Nation,65,Kebaowek First Nation,-78.985062,46.785585,GCS_North_American_1983_CSRS,2020
+Band,Manto Sipi Cree Nation,302,Manto Sipi Cree Nation,-94.05295837,54.8358401,GCS_North_American_1983_CSRS,2020
+Band,Penelakut Tribe,650,Penelakut Tribe,-123.659693,48.9709741,GCS_North_American_1983_CSRS,2020
+Band,Wabauskang First Nation,156,Wabauskang First Nation,-93.17098308,50.38145954,GCS_North_American_1983_CSRS,2020
+Band,?Akisq'nuk First Nation,604,?Akisq'nuk First Nation,-115.9639915,50.45849703,GCS_North_American_1983_CSRS,2020
+Band,White Bear,365,White Bear,-102.2703709,49.75175817,GCS_North_American_1983_CSRS,2020
+Band,Ocean Man,408,Ocean Man,-102.9341096,49.82441697,GCS_North_American_1983_CSRS,2020
+Band,Iskut,683,Iskut,-129.9882213,57.83787248,GCS_North_American_1983_CSRS,2020
+Band,One Arrow First Nation,373,One Arrow First Nation,-106.0292099,52.74048577,GCS_North_American_1983_CSRS,2020
+Band,Oregon Jack Creek,692,Oregon Jack Creek,-121.319117,50.61942152,GCS_North_American_1983_CSRS,2020
+Band,Neskonlith,690,Neskonlith,-119.7305801,50.77333253,GCS_North_American_1983_CSRS,2020
+Band,Swan River First Nation,457,Swan River First Nation,-115.4334192,55.32586274,GCS_North_American_1983_CSRS,2020
+Band,Eel River Bar First Nation,8,Eel River Bar First Nation,-66.37417877,48.03538036,GCS_North_American_1983_CSRS,2020
+Band,Animbiigoo Zaagi'igan Anishinaabek,194,Animbiigoo Zaagi'igan Anishinaabek,-87.95905849,49.60261503,GCS_North_American_1983_CSRS,2020
+Band,Esgenoopetitj First Nation,5,Esgenoopetitj First Nation,-65.11669655,47.20783033,GCS_North_American_1983_CSRS,2020
+Band,Tzeachten,575,Tzeachten,-121.953976,49.111856,GCS_North_American_1983_CSRS,2020
+Band,Big Island Lake Cree Nation,399,Big Island Lake Cree Nation,-109.6268743,54.40843556,GCS_North_American_1983_CSRS,2020
+Band,Nanoose First Nation,649,Nanoose First Nation,-124.1280164,49.2540636,GCS_North_American_1983_CSRS,2020
+Band,Splatsin,600,Splatsin,-119.138698,50.5425142,GCS_North_American_1983_CSRS,2020
+Band,Doig River First Nation,548,Doig River First Nation,-120.4955851,56.57785363,GCS_North_American_1983_CSRS,2020
+Band,Nuxalk Nation,539,Nuxalk Nation,-126.715701,52.361897,GCS_North_American_1983_CSRS,2020
+Band,Cowichan,642,Cowichan,-123.7092884,48.7762177,GCS_North_American_1983_CSRS,2020
+Band,Innu Takuaikan Uashat Mak Mani-Utenam,80,Innu Takuaikan Uashat Mak Mani-Utenam,-66.39957676,50.22610498,GCS_North_American_1983_CSRS,2020
+Band,Chippewas of Kettle and Stony Point,171,Chippewas of Kettle and Stony Point,-81.99881499,43.17839181,GCS_North_American_1983_CSRS,2020
+Band,Okanese,382,Okanese,-103.3553511,50.94389022,GCS_North_American_1983_CSRS,2020
+Band,Nee-Tahi-Buhn,726,Nee-Tahi-Buhn,-125.6673657,53.93295696,GCS_North_American_1983_CSRS,2020
+Band,Cowessess,361,Cowessess,-102.6601262,50.51635723,GCS_North_American_1983_CSRS,2020
+Band,Wood Mountain,388,Wood Mountain,-106.4493074,49.33538113,GCS_North_American_1983_CSRS,2020
+Band,Dakota Tipi,295,Dakota Tipi,-98.34056859,49.94811849,GCS_North_American_1983_CSRS,2020
+Band,Squamish,555,Squamish,-123.13217,49.32371538,GCS_North_American_1983_CSRS,2020
+Band,Matsqui First Nation,565,Matsqui First Nation,-122.3425789,49.1061819,GCS_North_American_1983_CSRS,2020
+Band,Nadleh Whuten,612,Nadleh Whuten,-124.607686,54.07608284,GCS_North_American_1983_CSRS,2020
+Band,Tootinaowaziibeeng Treaty Reserve,292,Tootinaowaziibeeng Treaty Reserve,-100.972736,51.22785195,GCS_North_American_1983_CSRS,2020
+Band,Ministikwan Lake Cree Nation,397,Ministikwan Lake Cree Nation,-109.6695683,54.05012533,GCS_North_American_1983_CSRS,2020
+Band,Skatin,562,Skatin,-122.4103973,49.93829583,GCS_North_American_1983_CSRS,2020
+Band,Whitesand,190,Whitesand,-89.04324888,50.30992583,GCS_North_American_1983_CSRS,2020
+Band,Mississauga,200,Mississauga,-83.00477268,46.19645597,GCS_North_American_1983_CSRS,2020
+Band,Whitecap Dakota First Nation,372,Whitecap Dakota First Nation,-106.7120252,51.87665263,GCS_North_American_1983_CSRS,2020
+Band,Mohawks of Kanesatake,69,Mohawks of Kanesatake,-74.1296991,45.48290868,GCS_North_American_1983_CSRS,2020
+Band,James Smith,370,James Smith,-104.8775749,53.105706,GCS_North_American_1983_CSRS,2020
+Band,Beardy's and Okemasis,369,Beardy's and Okemasis,-106.3110078,52.83742079,GCS_North_American_1983_CSRS,2020
+Band,Fort McMurray #468 First Nation,468,Fort McMurray #468 First Nation,-111.1574637,56.41352732,GCS_North_American_1983_CSRS,2020
+Band,Big Grassy,124,Big Grassy,-94.32186257,49.0658325,GCS_North_American_1983_CSRS,2020
+Band,Chawathil,583,Chawathil,-121.5526044,49.36982229,GCS_North_American_1983_CSRS,2020
+Band,Lytton,705,Lytton,-121.577555,50.237487,GCS_North_American_1983_CSRS,2020
+Band,Stswecem'c Xgat'tem First Nation,723,Stswecem'c Xgat'tem First Nation,-122.2089515,51.58884021,GCS_North_American_1983_CSRS,2020
+Band,Makwa Sahgaiehcan First Nation,396,Makwa Sahgaiehcan First Nation,-109.1652925,54.02743022,GCS_North_American_1983_CSRS,2020
+Band,Chippewas of Georgina Island,138,Chippewas of Georgina Island,-79.3128731,44.3728441,GCS_North_American_1983_CSRS,2020
+Band,Aishihik,490,Aishihik,-137.5066895,61.5991704,GCS_North_American_1983_CSRS,2020
+Band,Deer Lake,237,Deer Lake,-94.06543,52.63264,GCS_North_American_1983_CSRS,2020
+Band,Adams Lake,684,Adams Lake,-119.7014654,50.82868549,GCS_North_American_1983_CSRS,2020
+Band,Flying Post,227,Flying Post,-82.07312485,48.55328539,GCS_North_American_1983_CSRS,2020
+Band,Timiskaming First Nation,64,Timiskaming First Nation,-79.46973224,47.60723722,GCS_North_American_1983_CSRS,2020
+Band,Birdtail Sioux,284,Birdtail Sioux,-101.1492468,50.26621876,GCS_North_American_1983_CSRS,2020
+Band,Roseau River Anishinabe First Nation Government,273,Roseau River Anishinabe First Nation Government,-97.23978551,49.13322927,GCS_North_American_1983_CSRS,2020
+Band,Alderville First Nation,160,Alderville First Nation,-78.06328042,44.18269054,GCS_North_American_1983_CSRS,2020
+Band,Champagne and Aishihik First Nations,507,Champagne and Aishihik First Nations,-137.5064412,60.75262276,GCS_North_American_1983_CSRS,2020
+Band,Barren Lands,308,Barren Lands,-101.6638679,57.88737057,GCS_North_American_1983_CSRS,2020
+Band,Wawakapewin,234,Wawakapewin,-89.1416818,53.45237843,GCS_North_American_1983_CSRS,2020
+Band,Yellowknives Dene First Nation,763,Yellowknives Dene First Nation,-114.3756466,62.45505887,GCS_North_American_1983_CSRS,2020
+Band,Lennox Island,2,Lennox Island,-63.85596342,46.59967123,GCS_North_American_1983_CSRS,2020
+Band,Chapleau Ojibway,229,Chapleau Ojibway,-83.39391734,47.81600844,GCS_North_American_1983_CSRS,2020
+Band,Taykwa Tagamou Nation,145,Taykwa Tagamou Nation,-80.83297866,49.00291299,GCS_North_American_1983_CSRS,2020
+Band,Opaskwayak Cree Nation,315,Opaskwayak Cree Nation,-101.2713594,53.83770331,GCS_North_American_1983_CSRS,2020
+Band,Blood,435,Blood,-113.3011994,49.46269915,GCS_North_American_1983_CSRS,2020
+Band,Shuswap Band,605,Shuswap Band,-116.0072648,50.51585948,GCS_North_American_1983_CSRS,2020
+Band,Skeetchestn,687,Skeetchestn,-120.9547639,50.83970502,GCS_North_American_1983_CSRS,2020
+Band,Nation Huronne Wendat,50,Nation Huronne Wendat,-71.35719488,46.86262374,GCS_North_American_1983_CSRS,2020
+Band,Standing Buffalo,386,Standing Buffalo,-103.8948718,50.8016016,GCS_North_American_1983_CSRS,2020
+Band,Hatchet Lake,352,Hatchet Lake,-103.1575644,58.11096379,GCS_North_American_1983_CSRS,2020
+Band,Muskeg Lake Cree Nation #102,375,Muskeg Lake Cree Nation #102,-106.8741182,53.00294787,GCS_North_American_1983_CSRS,2020
+Band,Wet'suwet'en First Nation,725,Wet'suwet'en First Nation,-125.8825013,54.32951402,GCS_North_American_1983_CSRS,2020
+Band,Tla-o-qui-aht First Nations,660,Tla-o-qui-aht First Nations,-125.9120718,49.17334823,GCS_North_American_1983_CSRS,2020
+Band,Witset First Nation,530,Witset First Nation,-127.3309146,55.02156627,GCS_North_American_1983_CSRS,2020
+Band,Tataskweyak Cree Nation,306,Tataskweyak Cree Nation,-96.09783056,56.24449523,GCS_North_American_1983_CSRS,2020
+Band,Gitga'at First Nation,675,Gitga'at First Nation,-129.251857,53.42530438,GCS_North_American_1983_CSRS,2020
+Band,Eskasoni,23,Eskasoni,-60.64554902,45.93052184,GCS_North_American_1983_CSRS,2020
+Band,Clearwater River Dene,401,Clearwater River Dene,-109.4998139,56.52819969,GCS_North_American_1983_CSRS,2020
+Band,Hesquiaht,661,Hesquiaht,-126.2720923,49.36835717,GCS_North_American_1983_CSRS,2020
+Band,Algonquins of Barriere Lake,74,Algonquins of Barriere Lake,-76.70801049,47.25440384,GCS_North_American_1983_CSRS,2020
+Band,Soda Creek,716,Soda Creek,-122.1447821,52.28044892,GCS_North_American_1983_CSRS,2020
+Band,West Point First Nation,772,West Point First Nation,-115.7449693,60.85471709,GCS_North_American_1983_CSRS,2020
+Band,Stellat'en First Nation,613,Stellat'en First Nation,-124.9111136,54.0637965,GCS_North_American_1983_CSRS,2020
+Band,Ross River Dena Council,497,Ross River Dena Council,-132.4509601,61.97949763,GCS_North_American_1983_CSRS,2020
+Band,Membertou,26,Membertou,-60.19507217,46.11681824,GCS_North_American_1983_CSRS,2020
+Band,Bearfoot Onondaga,248,Bearfoot Onondaga,-80.04797238,43.02276062,GCS_North_American_1983_CSRS,2020
+Band,Kingsclear,11,Kingsclear,-66.85089407,45.94978538,GCS_North_American_1983_CSRS,2020

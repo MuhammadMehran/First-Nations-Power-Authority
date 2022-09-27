@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 
 @st.cache
 def get_data():
-    df = pd.read_excel('INRP_GHG-2020-2 - Sent .xlsm', sheet_name='100km')
+    df = pd.read_excel('database.xlsx')
     return df
 
 
