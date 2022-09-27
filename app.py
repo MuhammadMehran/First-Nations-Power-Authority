@@ -106,20 +106,24 @@ def chart4(data):
     data_star = data[data['Location Data Type'].str.lower() == 'band']
     data_not_star = data[data['Location Data Type'].str.lower() == 'facility']
 
-    fig.add_trace(go.Scattergeo(
-        lon=data_star['Longitude'],
-        lat=data_star['Latitude'],
-        text=data_star['Facility Name'], name='Band',
-        mode='markers', marker=dict(
-            symbol='star'
+    for fac in data_star['Facility Name'].unique():
+        data_fac = data_star[data_star['Facility Name'] == fac]
+        fig.add_trace(go.Scattergeo(
+            lon=data_fac['Longitude'],
+            lat=data_fac['Latitude'],
+            text=data_fac['Facility Name'], name=fac,
+            mode='markers', marker=dict(
+                symbol='star'
 
-        )))
+            )))
 
-    fig.add_trace(go.Scattergeo(
-        lon=data_not_star['Longitude'],
-        lat=data_not_star['Latitude'],
-        text=data_not_star['Facility Name'], name='Facility',
-        mode='markers'))
+    for fac in data_not_star['Facility Name'].unique():
+        data_fac = data_not_star[data_not_star['Facility Name'] == fac]
+        fig.add_trace(go.Scattergeo(
+            lon=data_fac['Longitude'],
+            lat=data_fac['Latitude'],
+            text=data_fac['Facility Name'], name=fac,
+            mode='markers'))
 
     fig.update_layout(
         mapbox_style="dark",
