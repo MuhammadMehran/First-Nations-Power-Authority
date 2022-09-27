@@ -159,6 +159,8 @@ with row5_1:
     st.markdown(
         'The color of the bar is associated with the name of the emitting facility.')
     st.markdown('Data Challenges: Corporation names change, facilities and do not always meet reporting obligations. Feedback on the data is welcome.')
+    st.markdown(
+        'Contact Alexandria Shrake at First Nations Power Authority for more detail. Email: Ashrake@fnpa.ca')
 
 with row5_2:
     df_filtered = chart1_data(band_chart1, year_chart1)
@@ -186,7 +188,8 @@ The color of the bar is associated with the name of the emitting facility.
 
 Data Challenges: Corporation names change, facilities and do not always meet reporting obligations. Feedback on the data is welcome. 
 ''')
-
+    st.markdown(
+        'Contact Alexandria Shrake at First Nations Power Authority for more detail. Email: Ashrake@fnpa.ca')
 with row7_2:
     df_filtered2 = chart2_data(band_chart2, year_chart2)
     chart2(df_filtered2)
@@ -210,6 +213,8 @@ The size of bar indicates the total emissions released over the selected year.
 The color of the bar is associated with the type of industry. 
 
 Data Challenges: Corporation names change, facilities and do not always meet reporting obligations. Feedback on the data is welcome. ''')
+    st.markdown(
+        'Contact Alexandria Shrake at First Nations Power Authority for more detail. Email: Ashrake@fnpa.ca')
 with row9_2:
     df2 = chart3_data(band_chart3)
     chart3(df2)
@@ -233,6 +238,8 @@ with row11_1:
 The circles on the map describe facility locations. The circles are colored by the polluting/emitting corporation. 
 
 Data Challenges: Corporation names change, facilities and do not always meet reporting obligations. Feedback on the data is welcome.''')
+    st.markdown(
+        'Contact Alexandria Shrake at First Nations Power Authority for more detail. Email: Ashrake@fnpa.ca')
 with row11_2:
     df_filtered4 = chart1_data(band_chart4, year_chart4)
     chart4(df_filtered4)
