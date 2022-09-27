@@ -36,11 +36,18 @@ def chart1(df_filtered):
     total_df_filtered = df_filtered.groupby(['Facility Name', 'Reporting Company Trade Name / Nom commercial de la société déclarante'])[
         'Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)'].sum().reset_index()
 
+    if len(total_df_filtered["Reporting Company Trade Name / Nom commercial de la société déclarante"]) > 10:
+        leg = -1.05
+    elif len(total_df_filtered["Reporting Company Trade Name / Nom commercial de la société déclarante"]) > 5:
+        leg = -0.5
+    else:
+        leg = -0.2
+
     fig = px.bar(total_df_filtered, x="Reporting Company Trade Name / Nom commercial de la société déclarante", y="Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)",
                  color='Facility Name')
     fig.update_layout(template='simple_white', xaxis_title='Reporting Company', xaxis={'categoryorder': 'total ascending'},
                       legend=dict(orientation="h", yanchor="top",
-                                  y=-0.5, xanchor="right", x=1),
+                                  y=leg, xanchor="right", x=1),
                       yaxis_title='Total Emissions (tonnes CO2e)', title='Total Emissions by Corporation', height=600)  # barmode='stack'
     st.plotly_chart(fig, use_container_width=True)
 
