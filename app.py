@@ -10,6 +10,11 @@ st.set_page_config(layout="wide")
 @st.cache
 def get_data():
     df = pd.read_excel('database.xlsx')
+    cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
+        "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
+       ]
+    for col in cols:
+        df[col] = df[col].str.lower()
     return df
 
 
