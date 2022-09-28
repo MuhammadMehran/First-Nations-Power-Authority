@@ -11,8 +11,8 @@ st.set_page_config(layout="wide")
 def get_data():
     df = pd.read_excel('database.xlsx')
     cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
-        "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
-       ]
+            "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
+            ]
     for col in cols:
         df[col] = df[col].str.lower()
     return df
@@ -132,7 +132,7 @@ def chart4(data):
 
     fig.update_layout(
         mapbox_style="dark",
-        geo_scope='north america', height=600,
+        geo_scope='north america', height=700,
         legend=dict(orientation="h", yanchor="top", y=-0.02,
                     xanchor="right", x=0.5, title='Location Data Type')
     )
