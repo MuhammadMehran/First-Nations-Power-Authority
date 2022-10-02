@@ -137,7 +137,11 @@ def chart4(data):
                     xanchor="right", x=0.5, title='Location Data Type')
     )
 
-    lon_foc, lat_foc = data_not_star.iloc[0]['Longitude'], data_not_star.iloc[0]['Latitude']
+    try:
+        lon_foc, lat_foc = data_not_star.iloc[0]['Longitude'], data_not_star.iloc[0]['Latitude']
+    except:
+        lon_foc, lat_foc = data_star.iloc[0]['Longitude'], data_star.iloc[0]['Latitude']
+
 
     fig.update_layout(
         geo=dict(
