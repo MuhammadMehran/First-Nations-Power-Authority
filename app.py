@@ -142,7 +142,6 @@ def chart4(data):
     except:
         lon_foc, lat_foc = data_star.iloc[0]['Longitude'], data_star.iloc[0]['Latitude']
 
-
     fig.update_layout(
         geo=dict(
             projection_scale=3,  # this is kind of like zoom
@@ -151,6 +150,17 @@ def chart4(data):
         ))
     st.plotly_chart(fig, use_container_width=True)
 
+
+styl = """
+<style>
+.plot-container{
+  box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  
+}
+</styl>
+"""
+st.markdown(styl, unsafe_allow_html=True)
 
 row4_spacer1, row4_1, row4_spacer2 = st.columns((.2, 7.1, .2))
 with row4_1:
