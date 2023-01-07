@@ -14,7 +14,10 @@ def get_data():
             "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
             ]
     for col in cols:
-        df[col] = df[col].str.lower()
+        try:
+            df[col] = df[col].str.lower()
+        except:
+            pass
     return df
 
 
