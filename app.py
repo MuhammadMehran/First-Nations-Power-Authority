@@ -3,12 +3,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from geopy import distance
 import requests # to call the openmap/google apis
 import json
 import datetime
-import math
-import itertools
 import numpy as np
 
 
