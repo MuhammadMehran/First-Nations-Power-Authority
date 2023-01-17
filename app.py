@@ -3,8 +3,26 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from geopy import distance
+import requests # to call the openmap/google apis
+import json
+import datetime
+import math
+import itertools
+import numpy as np
+
 
 st.set_page_config(layout="wide")
+@st.cache
+def get_distance(point1: dict, point2: dict) -> tuple:
+    """Gets distance between two points en route using http://project-osrm.org/docs/v5.10.0/api/#nearest-service"""
+    
+    url = f"""http://router.project-osrm.org/route/v1/driving/{point1["lon"]},{point1["lat"]};{point2["lon"]},{point2["lat"]}?overview=false&alternatives=false"""
+    r = requests.get(url)
+    
+    # get the distance from the returned values
+    route = json.loads(r.content)["routes"][0]
+    return (route["distance"], route["duration"])
 
 
 @st.cache
@@ -174,6 +192,21 @@ def chart4(data):
     st.plotly_chart(fig, use_container_width=True)
 
 
+    # combination = itertools.combinations(list(data['Facility Name']),2)
+    # dist_array = []
+    # for i , r in data.iterrows():
+    #     point1 = {"lat": r["Latitude"], "lon": r["Longitude"]}
+    #     for j, o in data[data.index != i].iterrows():
+    #         point2 = {"lat": o["Latitude"], "lon": o["Longitude"]}
+    #         dist, duration = get_distance(point1, point2)
+    #         #dist = geodesic((i_lat, i_lon), (o["CapitalLatitude"], o["CapitalLongitude"])).km
+    #         dist_array.append((i, j, duration, dist))
+    # distances_df = pd.DataFrame(dist_array,columns=["origin","destination","duration(s)","distnace(m)"])
+    # distances_df = distances_df.merge(data[["Facility Name"]], left_on = "origin", right_index=True).rename(columns={"Facility Name":"origin_name"})
+    # distances_df = distances_df.merge(data[["Facility Name"]], left_on = "destination", right_index=True).rename(columns={"Facility Name":"destination_name"})
+    # distances_df['duration(s)'] = distances_df['duration(s)'].apply(lambda x: str(datetime.timedelta(seconds=x)))
+    # st.dataframe(data=distances_df.astype(str).reset_index(drop=True))
+
 styl = """
 <style>
 .plot-container{
@@ -272,6 +305,19 @@ row11_spacer1, row11_1, row11_spacer2, row11_2, row11_spacer3 = st.columns(
 with row11_1:
     year_chart4 = st.selectbox("Please elect year", list(
         df['Reference Year / Année de référence'].unique()), key='year_chart4', index=4)
+    df_filtered4 = chart1_data(band_chart, year_chart4)
+    from_band = st.selectbox('Please origin band', list(df_filtered4['Facility Name'].unique()), index=0)
+    to_band = st.selectbox('Please destination band', list(df_filtered4['Facility Name'].unique()), index=1)    
+
+    from_data = df_filtered4[df_filtered4['Facility Name'] == from_band].iloc[0]
+    to_data = df_filtered4[df_filtered4['Facility Name'] == to_band].iloc[0]
+    point1 = {"lat": from_data["Latitude"], "lon": from_data["Longitude"]}
+    point2 = {"lat": to_data["Latitude"], "lon": to_data["Longitude"]}
+    distance, duration = get_distance(point1, point2)
+    distance_km = round(distance/1000, 2)
+    st.metric(label="Distance & Duration", value=str(distance_km)+' KM', delta='Driving Duration: '+str(datetime.timedelta(seconds=duration)).split(".")[0])
+
+
     st.markdown('''This map describes emitting facilities within 100km of the selected band. Adjacent bands within a 100km radius are also displayed. All bands are displayed as stars. 
 
 The circles on the map describe facility locations. The circles are colored by the polluting/emitting corporation. 
@@ -280,7 +326,7 @@ Data Challenges: Corporation names change, facilities and do not always meet rep
     st.markdown(
         'Contact Alexandria Shrake at First Nations Power Authority for more detail. Email: Ashrake@fnpa.ca')
 with row11_2:
-    df_filtered4 = chart1_data(band_chart, year_chart4)
+    
     chart4(df_filtered4)
     see_data4 = st.expander('You can click here to see the data 👉')
     with see_data4:
