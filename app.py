@@ -24,7 +24,7 @@ def get_distance(point1: dict, point2: dict) -> tuple:
 
 @st.cache
 def get_data():
-    df = pd.read_excel('20220105.xlsm')
+    df = pd.read_excel('20220105.xlsx')
     cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
             "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
             ]
@@ -56,6 +56,7 @@ with row0_1:
 def chart1_data(band, year):
     df_filtered = df[df['Reference Year / Année de référence'] == year]
     df_filtered = df_filtered[df_filtered['Band Name'].isin(band)]
+    df_filtered = df_filtered[df_filtered['Distance'] <= max_dist]
     return df_filtered
 
 
@@ -214,11 +215,28 @@ styl = """
 </styl>
 """
 st.markdown(styl, unsafe_allow_html=True)
+
+
+
+
+
 _, row4_1123, _ = st.columns((.2, 7.1, .2))
 with row4_1123:
     band_chart = st.multiselect("Please select Primary Band Name", list(
             df['Band Name'].unique()), key='band_chart', default=["Tsuut'ina Nation"])
+    
+    
+    data_dist = df[df['Band Name'].isin(band_chart)]
+    min_d = data_dist['Distance'].min()
+    max_d = data_dist['Distance'].max()
+
+    max_dist = st.slider(
+        'Select a range for Driving Distance (in meters)', min_value=min_d, max_value=max_d, value=max_d, step=100.0)
     agree = st.checkbox('Limit to top 15 bars', value=True)
+    
+
+
+
 
 row4_spacer1, row4_1, row4_spacer2 = st.columns((.2, 7.1, .2))
 with row4_1:
