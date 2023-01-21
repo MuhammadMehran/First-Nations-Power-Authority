@@ -227,8 +227,8 @@ with row4_1123:
     
     
     data_dist = df[df['Band Name'].isin(band_chart)]
-    min_d = data_dist['Distance'].min()
-    max_d = data_dist['Distance'].max()
+    min_d = float(data_dist['Distance'].min())
+    max_d = float(data_dist['Distance'].max())
 
     max_dist = st.slider(
         'Select a range for Driving Distance (in meters)', min_value=min_d, max_value=max_d, value=max_d, step=100.0)
