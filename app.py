@@ -276,6 +276,14 @@ elif authentication_status:
         # distances_df['duration(s)'] = distances_df['duration(s)'].apply(lambda x: str(datetime.timedelta(seconds=x)))
         # st.dataframe(data=distances_df.astype(str).reset_index(drop=True))
 
+    def chart5(data):
+        fig = px.scatter(data, x="Distance", y="Duration", size='Distance', hover_data=['Facility Name'],
+            labels={'Distance': 'Distance (meters)', 'Duration': 'Duration (seconds)'},
+            title='Distance v/s Duration')
+        fig.update_layout(template='simple_white')
+        st.plotly_chart(fig, use_container_width=True)
+
+
     styl = """
     <style>
     .plot-container{
@@ -416,6 +424,20 @@ elif authentication_status:
         see_data4 = st.expander('You can click here to see the data 👉')
         with see_data4:
             st.dataframe(data=df_filtered4.astype(str).reset_index(drop=True))
+
+
+    _, row66_1, _ = st.columns((.2, 7.1, .2))
+    with row66_1:
+        st.subheader('Distance v/s Duration Plot')
+    _, row77_1, _, row77_2, _ = st.columns(
+        (.2, 2.3, .4, 4.4, .2))
+    with row77_1:
+        pass
+    with row77_2:
+        df5 = chart3_data(band_chart)
+        chart5(df5)
+
+
 
     see_data5 = st.expander('You can click here to see the tracker 👉')
 
