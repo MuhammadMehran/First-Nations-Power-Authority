@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    mehran:
+      email: mehran@gmail.com
+      name: Mehran
+      password: '$2b$12$RvVKhB86jsX6LFIjPCqHGeOc.nKMQ37Xu8EtC0IFjmZCBL3hJyKqy' # To be replaced with hashed password
+    ajsmithe:
+      email: aj@gmail.com
+      name: AJSmithe
+      password: '$2b$12$wGMh1R/tZnQvBesTpNqWauxdsGetCoo.BSWaXrhFNPPJruInKYuKO' # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
