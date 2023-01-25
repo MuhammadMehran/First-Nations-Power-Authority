@@ -302,7 +302,7 @@ elif authentication_status:
         max_d = float(data_dist['Duration'].max()) / 3600
 
         max_dist = st.slider(
-            'Select a range for Driving Duration (in hours)', min_value=min_d, max_value=max_d, value=max_d, step=1.0)
+            'Select a range for Driving Duration (in hours)', min_value=min_d, max_value=max_d, value=max_d, step=0.5)
         agree = st.checkbox('Limit to top 15 bars', value=True)
         
 
