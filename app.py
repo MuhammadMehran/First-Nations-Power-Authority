@@ -18,6 +18,8 @@ st.set_page_config(layout="wide")
 
 names = ['AJSmithe', 'Mehran']
 usernames = ['ajsmithe', 'mehran']
+use_mysql = True
+
 
 
 
@@ -100,9 +102,11 @@ elif authentication_status == None:
 elif authentication_status:
     authenticator.logout('Logout', 'main')
     st.write(f'Welcome *{name}*')
-    insert_login_mysql(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
-    
-
+    if use_mysql:
+        insert_login_mysql(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+    else:
+        insert_login(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+ 
     df = get_data()
     agree = True
     reporting_axis = 'Reporting Company Trade Name / Nom commercial de la société déclarante'
@@ -123,7 +127,7 @@ elif authentication_status:
     def chart1_data(band, year):
         df_filtered = df[df['Reference Year / Année de référence'] == year]
         df_filtered = df_filtered[df_filtered['Band Name'].isin(band)]
-        df_filtered = df_filtered[df_filtered['Distance'] <= max_dist]
+        df_filtered = df_filtered[df_filtered['Duration'] <= max_dist*3600]
         return df_filtered
 
 
@@ -294,11 +298,11 @@ elif authentication_status:
         
         
         data_dist = df[df['Band Name'].isin(band_chart)]
-        min_d = float(data_dist['Distance'].min())
-        max_d = float(data_dist['Distance'].max())
+        min_d = float(data_dist['Duration'].min()) / 3600
+        max_d = float(data_dist['Duration'].max()) / 3600
 
         max_dist = st.slider(
-            'Select a range for Driving Distance (in meters)', min_value=min_d, max_value=max_d, value=max_d, step=100.0)
+            'Select a range for Driving Duration (in hours)', min_value=min_d, max_value=max_d, value=max_d, step=1.0)
         agree = st.checkbox('Limit to top 15 bars', value=True)
         
 
@@ -413,7 +417,7 @@ elif authentication_status:
         with see_data4:
             st.dataframe(data=df_filtered4.astype(str).reset_index(drop=True))
 
-    see_data5 = st.expander('You can click here to see the login tracker 👉')
+    see_data5 = st.expander('You can click here to see the tracker 👉')
 
     def login_data():
         cnx = sqlite3.connect('tracker.db')
@@ -440,6 +444,9 @@ elif authentication_status:
         return d
 
     with see_data5:
-        login_df = login_data_mysql()
+        if use_mysql:
+            login_df = login_data_mysql()
+        else:
+            login_df = login_data()
         st.dataframe(data=login_df.astype(str).reset_index(drop=True))
 
