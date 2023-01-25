@@ -423,7 +423,23 @@ elif authentication_status:
         d.columns = ['Name', 'Count', "Last"]
         return d
 
+
+    def login_data_mysql():
+        host, dbname, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
+        mydb  = mysql.connector.connect(
+            host=host,
+            database=dbname,
+            user=dbname,
+            password=pswd,
+            port=port
+        )
+        login_df = pd.read_sql('SELECT * FROM login', con=mydb)
+        mydb.close()
+        d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
+        d.columns = ['Name', 'Count', "Last"]
+        return d
+
     with see_data5:
-        login_df = login_data()
+        login_df = login_data_mysql()
         st.dataframe(data=login_df.astype(str).reset_index(drop=True))
 
