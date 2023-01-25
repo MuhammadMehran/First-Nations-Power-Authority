@@ -380,7 +380,7 @@ elif authentication_status:
         point1 = {"lat": from_data["Latitude"], "lon": from_data["Longitude"]}
         point2 = {"lat": to_data["Latitude"], "lon": to_data["Longitude"]}
         distance, duration = get_distance(point1, point2)
-        st.metric(label="Distance & Duration", value=str(distance)+' KM', delta='Driving Duration: '+duration)
+        st.metric(label="Distance & Duration", value=str(distance)+' KM', delta='Driving Duration: '+str(duration))
 
 
         st.markdown('''This map describes emitting facilities within 100km of the selected band. Adjacent bands within a 100km radius are also displayed. All bands are displayed as stars. 
