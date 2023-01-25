@@ -11,6 +11,7 @@ import streamlit_authenticator as stauth
 import yaml
 import datetime
 import sqlite3
+import mysql.connector
 
 
 st.set_page_config(layout="wide")
@@ -18,6 +19,25 @@ st.set_page_config(layout="wide")
 names = ['AJSmithe', 'Mehran']
 usernames = ['ajsmithe', 'mehran']
 
+
+
+def insert_login_mysql(name, logintime):
+    host, dbname, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
+    mydb  = mysql.connector.connect(
+        host=host,
+        database=dbname,
+        user=dbname,
+        password=pswd,
+        port=port
+    )
+    mycursor = mydb.cursor()
+
+    sql = ''' INSERT INTO login(name,logintime)
+              VALUES(%s,%s) '''
+    mycursor.execute(sql, (name, logintime))
+    mydb.commit()
+    mydb.close()
+    
 
 
 def insert_login(name, logintime):
@@ -42,8 +62,36 @@ authenticator = stauth.Authenticate(
 
 name, authentication_status, username = authenticator.login('Login', 'main')
 
+@st.cache
+def get_distance(point1: dict, point2: dict) -> tuple:
+    """Gets distance between two points en route using http://project-osrm.org/docs/v5.10.0/api/#nearest-service"""
+    
+    url = f"""http://router.project-osrm.org/route/v1/driving/{point1["lon"]},{point1["lat"]};{point2["lon"]},{point2["lat"]}?overview=false&alternatives=false"""
+    r = requests.get(url)
+    
+    # get the distance from the returned values
+    try:
+        route = json.loads(r.content)["routes"][0]
+        distance = route["distance"]
+        distance_km = round(distance/1000, 2)
+        duration = route["duration"]
+        return (distance_km, duration.str(datetime.timedelta(seconds=duration)).split(".")[0])
+    except:
+        return ('Oops:( Could not Get the data right now', None)
 
 
+@st.cache
+def get_data():
+    df = pd.read_excel('20220105.xlsx')
+    cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
+            "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
+            ]
+    for col in cols:
+        try:
+            df[col] = df[col].str.lower()
+        except:
+            pass
+    return df
 
 if authentication_status == False:
     st.error('Username/password is incorrect')
@@ -52,40 +100,8 @@ elif authentication_status == None:
 elif authentication_status:
     authenticator.logout('Logout', 'main')
     st.write(f'Welcome *{name}*')
-    insert_login(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+    insert_login_mysql(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
     
-
-
-    @st.cache
-    def get_distance(point1: dict, point2: dict) -> tuple:
-        """Gets distance between two points en route using http://project-osrm.org/docs/v5.10.0/api/#nearest-service"""
-        
-        url = f"""http://router.project-osrm.org/route/v1/driving/{point1["lon"]},{point1["lat"]};{point2["lon"]},{point2["lat"]}?overview=false&alternatives=false"""
-        r = requests.get(url)
-        
-        # get the distance from the returned values
-        try:
-            route = json.loads(r.content)["routes"][0]
-            distance = route["distance"]
-            distance_km = round(distance/1000, 2)
-            duration = route["duration"]
-            return (distance_km, duration.str(datetime.timedelta(seconds=duration)).split(".")[0])
-        except:
-            return ('Oops:( Could not Get the data right now', None)
-
-    @st.cache
-    def get_data():
-        df = pd.read_excel('20220105.xlsx')
-        cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
-                "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
-                ]
-        for col in cols:
-            try:
-                df[col] = df[col].str.lower()
-            except:
-                pass
-        return df
-
 
     df = get_data()
     agree = True
@@ -403,7 +419,9 @@ elif authentication_status:
         cnx = sqlite3.connect('tracker.db')
         login_df = pd.read_sql_query("SELECT * FROM login", cnx).drop_duplicates()
         cnx.close()
-        return login_df
+        d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
+        d.columns = ['Name', 'Count', "Last"]
+        return d
 
     with see_data5:
         login_df = login_data()

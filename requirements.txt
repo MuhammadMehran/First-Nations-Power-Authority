@@ -60,3 +60,4 @@ watchdog==2.1.9
 zipp==3.8.1
 streamlit-authenticator==0.2.1
 PyYAML
+mysql-connector-python
