@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import requests # to call the openmap/google apis
+import requests
 import json
 import datetime
 import numpy as np
@@ -295,12 +295,8 @@ elif authentication_status:
     """
     st.markdown(styl, unsafe_allow_html=True)
 
-
-
-
-
-    _, row4_1123, _ = st.columns((.2, 7.1, .2))
-    with row4_1123:
+    with st.sidebar:
+        st.subheader('Configure the Plots')
         band_chart = st.multiselect("Please select Primary Band Name", list(
                 df['Band Name'].unique()), key='band_chart', default=["Tsuut'ina Nation"])
         
@@ -312,6 +308,7 @@ elif authentication_status:
         max_dist = st.slider(
             'Select a range for Driving Duration (in hours)', min_value=min_d, max_value=max_d, value=max_d, step=0.5)
         agree = st.checkbox('Limit to top 15 bars', value=True)
+        
         
 
 
