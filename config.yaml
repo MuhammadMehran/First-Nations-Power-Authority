@@ -4,9 +4,9 @@ credentials:
       email: mehran@gmail.com
       name: Mehran
       password: '$2b$12$RvVKhB86jsX6LFIjPCqHGeOc.nKMQ37Xu8EtC0IFjmZCBL3hJyKqy' # To be replaced with hashed password
-    ajsmithe:
+    alexshrake:
       email: aj@gmail.com
-      name: AJSmithe
+      name: Alex Shrake
       password: '$2b$12$wGMh1R/tZnQvBesTpNqWauxdsGetCoo.BSWaXrhFNPPJruInKYuKO' # To be replaced with hashed password
 cookie:
   expiry_days: 30

@@ -468,4 +468,3 @@ elif authentication_status:
         else:
             login_df = login_data()
         st.dataframe(data=login_df.astype(str).reset_index(drop=True))
-
