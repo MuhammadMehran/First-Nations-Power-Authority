@@ -16,8 +16,6 @@ import mysql.connector
 
 st.set_page_config(layout="wide")
 
-names = ['AJSmithe', 'Mehran']
-usernames = ['ajsmithe', 'mehran']
 use_mysql = True
 
 
@@ -277,9 +275,11 @@ elif authentication_status:
         # st.dataframe(data=distances_df.astype(str).reset_index(drop=True))
 
     def chart5(data):
-        fig = px.scatter(data, x="Distance", y="Duration", size='Distance', hover_data=['Facility Name'],
-            labels={'Distance': 'Distance (meters)', 'Duration': 'Duration (seconds)'},
-            title='Distance v/s Duration')
+        em_col = 'Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)'
+        fig = px.scatter(data.dropna(subset=[em_col]), x="Distance", y="Duration", size=em_col,
+                    color='Facility Name', hover_data=['Facility Name', em_col],
+                    labels={'Distance': 'Distance (meters)', 'Duration': 'Duration (seconds)'},
+                    title='Distance v/s Duration')
         fig.update_layout(template='simple_white')
         st.plotly_chart(fig, use_container_width=True)
 
