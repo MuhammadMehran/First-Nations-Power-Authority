@@ -12,21 +12,21 @@ import yaml
 import datetime
 import sqlite3
 import mysql.connector
-
+from streamlit_modal import Modal
 
 st.set_page_config(layout="wide")
 
-use_mysql = True
-
+use_mysql = False
+first_time_filter = True
 
 
 
 def insert_login_mysql(name, logintime):
-    host, dbname, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
+    host, dbname, usr_name, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_USER"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
     mydb  = mysql.connector.connect(
         host=host,
         database=dbname,
-        user=dbname,
+        user=usr_name,
         password=pswd,
         port=port
     )
@@ -104,7 +104,19 @@ elif authentication_status:
         insert_login_mysql(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
     else:
         insert_login(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
- 
+    
+    # modal = Modal("Message Box" , key=1)
+    # if first_time_filter:
+    #     modal.open()
+    #     first_time_filter = False 
+
+
+    # if modal.is_open():
+    #     with modal.container():
+    #         st.write("Text goes here")
+
+    # modal.close()
+
     df = get_data()
     agree = True
     reporting_axis = 'Reporting Company Trade Name / Nom commercial de la société déclarante'
@@ -296,6 +308,8 @@ elif authentication_status:
     """
     st.markdown(styl, unsafe_allow_html=True)
 
+
+    
     with st.sidebar:
         st.subheader('Configure the Plots')
         band_chart = st.multiselect("Please select Primary Band Name", list(
@@ -310,6 +324,8 @@ elif authentication_status:
             'Select a range for Driving Duration (in hours)', min_value=min_d, max_value=max_d, value=max_d, step=0.5)
         agree = st.checkbox('Limit to top 15 bars', value=True)
         
+        
+
         
 
 
