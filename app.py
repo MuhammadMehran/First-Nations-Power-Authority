@@ -277,10 +277,11 @@ elif authentication_status:
     def chart5(data):
         em_col = 'Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)'
         fig = px.scatter(data.dropna(subset=[em_col]), x="Distance", y="Duration", size=em_col,
-                    color='Facility Name', hover_data=['Facility Name', em_col],
+                    color='Reporting Company Trade Name / Nom commercial de la société déclarante', hover_data=['Facility Name', em_col],
                     labels={'Distance': 'Distance (meters)', 'Duration': 'Duration (seconds)'},
                     title='Distance v/s Duration')
-        fig.update_layout(template='simple_white')
+        fig.update_layout(template='simple_white', height=600, legend_title_text='Reporting Company', legend=dict(orientation="h", yanchor="top",
+                                    y=-0.7, xanchor="right", x=1))
         st.plotly_chart(fig, use_container_width=True)
 
 
@@ -397,15 +398,6 @@ elif authentication_status:
         year_chart4 = st.selectbox("Please elect year", list(
             df['Reference Year / Année de référence'].unique()), key='year_chart4', index=4)
         df_filtered4 = chart1_data(band_chart, year_chart4)
-        from_band = st.selectbox('Please origin band', list(df_filtered4['Facility Name'].unique()), index=0)
-        to_band = st.selectbox('Please destination band', list(df_filtered4['Facility Name'].unique()), index=1)    
-
-        from_data = df_filtered4[df_filtered4['Facility Name'] == from_band].iloc[0]
-        to_data = df_filtered4[df_filtered4['Facility Name'] == to_band].iloc[0]
-        point1 = {"lat": from_data["Latitude"], "lon": from_data["Longitude"]}
-        point2 = {"lat": to_data["Latitude"], "lon": to_data["Longitude"]}
-        distance, duration = get_distance(point1, point2)
-        st.metric(label="Distance & Duration", value=str(distance)+' KM', delta='Driving Duration: '+str(duration))
 
 
         st.markdown('''This map describes emitting facilities within 100km of the selected band. Adjacent bands within a 100km radius are also displayed. All bands are displayed as stars. 
