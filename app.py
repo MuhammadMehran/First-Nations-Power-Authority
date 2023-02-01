@@ -16,7 +16,7 @@ from streamlit_modal import Modal
 
 st.set_page_config(layout="wide")
 
-use_mysql = False
+use_mysql = True
 first_time_filter = True
 
 
