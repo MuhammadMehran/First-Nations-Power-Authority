@@ -14,9 +14,10 @@ import sqlite3
 import mysql.connector
 from streamlit_modal import Modal
 
+
 st.set_page_config(layout="wide")
 
-use_mysql = True
+use_mysql = False
 first_time_filter = True
 
 
@@ -105,6 +106,35 @@ elif authentication_status:
     else:
         insert_login(name, datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
     
+    # components.html('''
+    # <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    # <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    # <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    # <script>
+    #     $(document).ready(function(){
+    #         $("#myModal").modal('show');
+    #     });
+    # </script>
+    # <div id="myModal" class="modal fade">
+    #     <div class="modal-dialog">
+    #         <div class="modal-content">
+    #             <div class="modal-header">
+    #                 <h5 class="modal-title">Message Box</h5>
+    #                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+    #             </div>
+    #             <div class="modal-body">
+    #                 <p>This is a message Box</p>
+                    
+    #             </div>
+    #         </div>
+    #     </div>
+    # </div>''', height=300)
+        
+
+
+
+
+
     # modal = Modal("Message Box" , key=1)
     # if first_time_filter:
     #     modal.open()
