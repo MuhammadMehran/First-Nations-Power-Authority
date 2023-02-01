@@ -456,11 +456,11 @@ elif authentication_status:
 
 
     def login_data_mysql():
-        host, dbname, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
+        host, dbname, usr_name, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_USER"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
         mydb  = mysql.connector.connect(
             host=host,
             database=dbname,
-            user=dbname,
+            user=usr_name,
             password=pswd,
             port=port
         )
