@@ -263,7 +263,7 @@ elif authentication_status:
 
         for fac in data_star['Facility Name'].unique():
             data_fac = data_star[data_star['Facility Name'] == fac]
-            fig.add_trace(go.Scattergeo(
+            fig.add_trace(go.Scattermapbox(
                 lon=data_fac['Longitude'],
                 lat=data_fac['Latitude'],
                 text=data_fac['Facility Name'], name=fac,
@@ -274,17 +274,17 @@ elif authentication_status:
 
         for fac in data_not_star['Facility Name'].unique():
             data_fac = data_not_star[data_not_star['Facility Name'] == fac]
-            fig.add_trace(go.Scattergeo(
+            fig.add_trace(go.Scattermapbox(
                 lon=data_fac['Longitude'],
                 lat=data_fac['Latitude'],
                 text=data_fac['Facility Name'], name=fac,
                 mode='markers'))
 
         fig.update_layout(
-            mapbox_style="dark",
+            mapbox_style="open-street-map",
             geo_scope='north america', height=700,
-            legend=dict(orientation="h", yanchor="top", y=-0.02,
-                        xanchor="right", x=0.5, title='Location Data Type')
+            # legend=dict(orientation="h", yanchor="top", y=-0.02,
+            #             xanchor="right", x=0.5, title='Location Data Type')
         )
 
         try:
@@ -293,8 +293,8 @@ elif authentication_status:
             lon_foc, lat_foc = data_star.iloc[0]['Longitude'], data_star.iloc[0]['Latitude']
 
         fig.update_layout(
-            geo=dict(
-                projection_scale=3,  # this is kind of like zoom
+            mapbox=dict(
+                zoom=2,  # this is kind of like zoom
                 # this will center on the point
                 center=dict(lat=lat_foc, lon=lon_foc),
             ))
