@@ -475,35 +475,35 @@ elif authentication_status:
 
 
 
-    see_data5 = st.expander('You can click here to see the tracker 👉')
+    # see_data5 = st.expander('You can click here to see the tracker 👉')
 
-    def login_data():
-        cnx = sqlite3.connect('tracker.db')
-        login_df = pd.read_sql_query("SELECT * FROM login", cnx).drop_duplicates()
-        cnx.close()
-        d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
-        d.columns = ['Name', 'Count', "Last"]
-        return d
+    # def login_data():
+    #     cnx = sqlite3.connect('tracker.db')
+    #     login_df = pd.read_sql_query("SELECT * FROM login", cnx).drop_duplicates()
+    #     cnx.close()
+    #     d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
+    #     d.columns = ['Name', 'Count', "Last"]
+    #     return d
 
 
-    def login_data_mysql():
-        host, dbname, usr_name, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_USER"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
-        mydb  = mysql.connector.connect(
-            host=host,
-            database=dbname,
-            user=usr_name,
-            password=pswd,
-            port=port
-        )
-        login_df = pd.read_sql('SELECT * FROM login', con=mydb)
-        mydb.close()
-        d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
-        d.columns = ['Name', 'Count', "Last"]
-        return d
+    # def login_data_mysql():
+    #     host, dbname, usr_name, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_USER"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
+    #     mydb  = mysql.connector.connect(
+    #         host=host,
+    #         database=dbname,
+    #         user=usr_name,
+    #         password=pswd,
+    #         port=port
+    #     )
+    #     login_df = pd.read_sql('SELECT * FROM login', con=mydb)
+    #     mydb.close()
+    #     d = login_df.groupby('name').agg({'logintime': ['count', 'last']}).reset_index()
+    #     d.columns = ['Name', 'Count', "Last"]
+    #     return d
 
-    with see_data5:
-        if use_mysql:
-            login_df = login_data_mysql()
-        else:
-            login_df = login_data()
-        st.dataframe(data=login_df.astype(str).reset_index(drop=True))
+    # with see_data5:
+    #     if use_mysql:
+    #         login_df = login_data_mysql()
+    #     else:
+    #         login_df = login_data()
+    #     st.dataframe(data=login_df.astype(str).reset_index(drop=True))
