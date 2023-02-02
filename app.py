@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 use_mysql = False
 first_time_filter = True
 
-
+token = st.secrets["MAPBOX_TOKEN"]
 
 def insert_login_mysql(name, logintime):
     host, dbname, usr_name, pswd, port = st.secrets["DB_HOST"], st.secrets["DB_NAME"], st.secrets["DB_USER"], st.secrets["DB_PSWD"], st.secrets["DB_PORT"]
@@ -281,6 +281,7 @@ elif authentication_status:
                 mode='markers'))
 
         fig.update_layout(
+            accesstoken=token,
             mapbox_style="outdoors",
             geo_scope='north america', height=700,
             # legend=dict(orientation="h", yanchor="top", y=-0.02,
