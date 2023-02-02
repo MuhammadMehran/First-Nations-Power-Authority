@@ -281,7 +281,6 @@ elif authentication_status:
                 mode='markers'))
 
         fig.update_layout(
-            accesstoken=token,
             mapbox_style="outdoors",
             geo_scope='north america', height=700,
             # legend=dict(orientation="h", yanchor="top", y=-0.02,
@@ -295,6 +294,7 @@ elif authentication_status:
 
         fig.update_layout(
             mapbox=dict(
+                accesstoken=token,
                 zoom=2,  # this is kind of like zoom
                 # this will center on the point
                 center=dict(lat=lat_foc, lon=lon_foc),
