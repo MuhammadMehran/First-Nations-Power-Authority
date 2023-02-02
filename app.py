@@ -281,7 +281,7 @@ elif authentication_status:
                 mode='markers'))
 
         fig.update_layout(
-            mapbox_style="open-street-map",
+            mapbox_style="outdoors",
             geo_scope='north america', height=700,
             # legend=dict(orientation="h", yanchor="top", y=-0.02,
             #             xanchor="right", x=0.5, title='Location Data Type')
