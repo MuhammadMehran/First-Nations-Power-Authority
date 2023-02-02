@@ -8,6 +8,10 @@ credentials:
       email: aj@gmail.com
       name: Alex Shrake
       password: '$2b$12$wGMh1R/tZnQvBesTpNqWauxdsGetCoo.BSWaXrhFNPPJruInKYuKO' # To be replaced with hashed password
+    thaliaaspeslet:
+      email: thaliaaspeslet@gmail.com
+      name: Thalia Aspeslet
+      password: '$2b$12$hvGr6aw6xG7b2qZa7glsM.zxMU4zNyLJrWvVcGGmk4zWcNdGwWjNm'
 cookie:
   expiry_days: 30
   key: random_signature_key
