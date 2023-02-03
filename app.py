@@ -172,7 +172,7 @@ elif authentication_status:
 
 
     def chart1(df_filtered):
-        st.balloons()
+        # st.balloons()
         if agree:
             df_tmp = df_filtered.groupby(reporting_axis, as_index=False).sum()
             df_tmp = df_tmp.sort_values(co2_column, ascending=False)
@@ -272,7 +272,7 @@ elif authentication_status:
                 lat=data_fac['Latitude'],
                 text=data_fac['Facility Name'], name=fac,
                 mode='markers', marker=dict(
-                    symbol='star', size=10
+                    symbol='star', size=20
 
                 )))
 
