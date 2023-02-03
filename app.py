@@ -268,7 +268,7 @@ elif authentication_status:
                 lat=data_fac['Latitude'],
                 text=data_fac['Facility Name'], name=fac,
                 mode='markers', marker=dict(
-                    symbol='star'
+                    symbol='star', size=10
 
                 )))
 
