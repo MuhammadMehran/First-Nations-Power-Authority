@@ -258,11 +258,15 @@ elif authentication_status:
     def chart4(data):
         fig = go.Figure()
 
+        report_col = 'Reporting Company Trade Name / Nom commercial de la société déclarante'
+
+        data[report_col] = data[report_col].fillna('None') 
+
         data_star = data[data['Location Data Type'].str.lower() == 'band']
         data_not_star = data[data['Location Data Type'].str.lower() == 'facility']
 
-        for fac in data_star['Facility Name'].unique():
-            data_fac = data_star[data_star['Facility Name'] == fac]
+        for fac in data_star[report_col].unique():
+            data_fac = data_star[data_star[report_col] == fac]
             fig.add_trace(go.Scattermapbox(
                 lon=data_fac['Longitude'],
                 lat=data_fac['Latitude'],
@@ -272,12 +276,12 @@ elif authentication_status:
 
                 )))
 
-        for fac in data_not_star['Facility Name'].unique():
-            data_fac = data_not_star[data_not_star['Facility Name'] == fac]
+        for fac in data_not_star[report_col].unique():
+            data_fac = data_not_star[data_not_star[report_col] == fac]
             fig.add_trace(go.Scattermapbox(
                 lon=data_fac['Longitude'],
                 lat=data_fac['Latitude'],
-                text=data_fac['Facility Name'], name=fac,
+                text=data_fac['Facility Name'], name=fac, 
                 mode='markers'))
 
         fig.update_layout(
