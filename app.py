@@ -63,7 +63,7 @@ authenticator = stauth.Authenticate(
 
 name, authentication_status, username = authenticator.login('Login', 'main')
 
-@st.cache
+@st.cache(ttl=24*60*60)
 def get_distance(point1: dict, point2: dict) -> tuple:
     """Gets distance between two points en route using http://project-osrm.org/docs/v5.10.0/api/#nearest-service"""
     
@@ -81,7 +81,7 @@ def get_distance(point1: dict, point2: dict) -> tuple:
         return ('Oops:( Could not Get the data right now', None)
 
 
-@st.cache
+@st.cache(ttl=24*60*60)
 def get_data():
     df = pd.read_excel('20220105.xlsx')
     cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
