@@ -63,7 +63,7 @@ authenticator = stauth.Authenticate(
 
 name, authentication_status, username = authenticator.login('Login', 'main')
 
-@st.cache(ttl=24*60*60)
+# @st.cache(ttl=24*60*60)
 def get_distance(point1: dict, point2: dict) -> tuple:
     """Gets distance between two points en route using http://project-osrm.org/docs/v5.10.0/api/#nearest-service"""
     
@@ -81,7 +81,7 @@ def get_distance(point1: dict, point2: dict) -> tuple:
         return ('Oops:( Could not Get the data right now', None)
 
 
-@st.cache(ttl=24*60*60)
+# @st.cache(ttl=24*60*60)
 def get_data():
     df = pd.read_excel('20220105.xlsx')
     cols = ['Reporting Company Trade Name / Nom commercial de la société déclarante', 'Facility Name',
@@ -163,7 +163,7 @@ elif authentication_status:
     ### ANALYSIS ###
     ################
 
-    @st.cache(ttl=24*60*60)
+    # @st.cache(ttl=24*60*60)
     def chart1_data(band, year):
         df_filtered = df[df['Reference Year / Année de référence'] == year]
         df_filtered = df_filtered[df_filtered['Band Name'].isin(band)]
@@ -199,7 +199,7 @@ elif authentication_status:
         st.plotly_chart(fig, use_container_width=True)
 
 
-    @st.cache(ttl=24*60*60)
+    # @st.cache(ttl=24*60*60)
     def chart2_data(band, year):
         df_filtered = df[df['Reference Year / Année de référence'] == year]
         df_filtered = df_filtered[df_filtered['Band Name'].isin(band)]
@@ -233,7 +233,7 @@ elif authentication_status:
         st.plotly_chart(fig, use_container_width=True)
 
 
-    @st.cache(ttl=24*60*60)
+    # @st.cache(ttl=24*60*60)
     def chart3_data(band):
         df2 = df[df['Band Name'].isin(band)]
         color = "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
