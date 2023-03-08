@@ -20,6 +20,10 @@ credentials:
       email: kylemartin@gmail.com
       name: Kyle Martin
       password: '$2b$12$GrJNSVDTYf.BhWjDposDLusfbg8f6MEJf7jCAow2i1Epa46BG2X3G'
+    byronfraser:
+      email: byronfraser@gmail.com
+      name: Byron Fraser
+      password: '$2b$12$Hf7WWxu9FuVR1ZIaLZndr.CYxP5U.JY2Lf0jNiBz/50P9FCQVKNxW'
 cookie:
   expiry_days: 30
   key: random_signature_key
