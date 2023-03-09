@@ -466,16 +466,16 @@ elif authentication_status:
             st.dataframe(data=df_filtered4.astype(str).reset_index(drop=True))
 
 
-    _, row66_1, _ = st.columns((.2, 7.1, .2))
-    with row66_1:
-        st.subheader('Distance v/s Duration Plot')
-    _, row77_1, _, row77_2, _ = st.columns(
-        (.2, 2.3, .4, 4.4, .2))
-    with row77_1:
-        pass
-    with row77_2:
-        df5 = chart3_data(band_chart)
-        chart5(df5)
+    # _, row66_1, _ = st.columns((.2, 7.1, .2))
+    # with row66_1:
+    #     st.subheader('Distance v/s Duration Plot')
+    # _, row77_1, _, row77_2, _ = st.columns(
+    #     (.2, 2.3, .4, 4.4, .2))
+    # with row77_1:
+    #     pass
+    # with row77_2:
+    #     df5 = chart3_data(band_chart)
+    #     chart5(df5)
 
 
 
