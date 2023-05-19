@@ -218,7 +218,10 @@ elif authentication_status:
             except:
                 df_tmp = df_filtered2.groupby(industry_axis, as_index=False)[num_cols].sum()
 
-            df_tmp = df_tmp.sort_values(co2_column, ascending=False)
+            try:
+                df_tmp = df_tmp.sort_values(co2_column, ascending=False)
+            except:
+                pass
             top_15 = df_tmp[industry_axis].head(15).unique()
             df_filtered = df_filtered.loc[df_filtered[industry_axis].isin(top_15)]
         
