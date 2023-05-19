@@ -80,7 +80,7 @@ def get_distance(point1: dict, point2: dict) -> tuple:
     except:
         return ('Oops:( Could not Get the data right now', None)
 
-
+num_cols = []
 @st.cache(ttl=24*60*60)
 def get_data():
     df = pd.read_excel('20220105-2015.xlsx')
@@ -92,6 +92,8 @@ def get_data():
             df[col] = df[col].str.lower()
         except:
             pass
+    num_cols = df._get_numeric_data().columns
+
     return df
 
 if authentication_status == False:
@@ -209,7 +211,11 @@ elif authentication_status:
     def chart2(df_filtered):
         
         if agree:
-            df_tmp = df_filtered.groupby(industry_axis, as_index=False).sum()
+            try:
+                df_tmp = df_filtered.groupby(industry_axis, as_index=False).sum()
+            except:
+                df_tmp = df_filtered2.groupby(industry_axis, as_index=False)[num_cols].sum()
+
             df_tmp = df_tmp.sort_values(co2_column, ascending=False)
             top_15 = df_tmp[industry_axis].head(15).unique()
             df_filtered = df_filtered.loc[df_filtered[industry_axis].isin(top_15)]
