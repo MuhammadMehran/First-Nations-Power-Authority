@@ -92,6 +92,7 @@ def get_data():
             df[col] = df[col].str.lower()
         except:
             pass
+    df[co2_column] = pd.to_numeric(df[co2_column], errors='coerce')
     num_cols = df._get_numeric_data().columns
 
     return df
