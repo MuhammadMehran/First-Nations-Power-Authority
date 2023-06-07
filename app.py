@@ -157,7 +157,7 @@ def chart1_data(band, year):
 def chart1(df_filtered):
     # st.balloons()
     if agree:
-        df_tmp = df_filtered.groupby(reporting_axis, as_index=False)[num_cols].sum()
+        df_tmp = df_filtered.groupby(reporting_axis, as_index=False)[co2_column].sum()
         df_tmp = df_tmp.sort_values(co2_column, ascending=False)
         top_15 = df_tmp[reporting_axis].head(15).unique()
         df_filtered = df_filtered.loc[df_filtered[reporting_axis].isin(top_15)]
@@ -192,11 +192,12 @@ def chart2_data(band, year):
 def chart2(df_filtered):
     
     if agree:
-        try:
-            df_tmp = df_filtered.groupby(industry_axis, as_index=False).sum()
-        except:
-            df_tmp = df_filtered2.groupby(industry_axis, as_index=False)[num_cols].sum()
+        # try:
+        #     df_tmp = df_filtered.groupby(industry_axis, as_index=False).sum()
+        # except:
+        #     df_tmp = df_filtered2.groupby(industry_axis, as_index=False)[num_cols].sum()
 
+        df_tmp = df_filtered2.groupby(industry_axis, as_index=False)[co2_column].sum()
         try:
             df_tmp = df_tmp.sort_values(co2_column, ascending=False)
         except:
