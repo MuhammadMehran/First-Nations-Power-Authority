@@ -83,7 +83,7 @@ def get_data():
             pass
     co2_column = 'Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)'
     df[co2_column] = pd.to_numeric(df[co2_column], errors='coerce')
-    num_cols = df._get_numeric_data().columns
+    num_cols.extend(df._get_numeric_data().columns)
 
     return df
 
@@ -157,7 +157,7 @@ def chart1_data(band, year):
 def chart1(df_filtered):
     # st.balloons()
     if agree:
-        df_tmp = df_filtered.groupby(reporting_axis, as_index=False).sum()
+        df_tmp = df_filtered.groupby(reporting_axis, as_index=False)[num_cols].sum()
         df_tmp = df_tmp.sort_values(co2_column, ascending=False)
         top_15 = df_tmp[reporting_axis].head(15).unique()
         df_filtered = df_filtered.loc[df_filtered[reporting_axis].isin(top_15)]
