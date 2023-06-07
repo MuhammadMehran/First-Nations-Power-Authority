@@ -131,7 +131,7 @@ def get_data():
     # modal.close()
 
 df = get_data()
-agree = True
+# agree = True
 reporting_axis = 'Reporting Company Trade Name / Nom commercial de la société déclarante'
 industry_axis = "English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais"
 co2_column = 'Total Emissions (tonnes CO2e) / Émissions totales (tonnes éq. CO2)'
